@@ -43,7 +43,7 @@ To get to your Azure Portal you can [Click Here](https://portal.azure.com/#home)
 
 # Step 3: Create a Resource Group in Azure portal. 
 
-# What is a Resource Group?
+## What is a Resource Group?
 
 A resource group is a way to organize everything that you are going to build in your Azure environment. If you want to create a network with a few vm workstations and some servers you will need a centrailzed place to store all your network devices that you want on the same network. This is what the resource gorup does. Think of it as a container and you want to store all resources to your environment in one container.  
 
