@@ -57,7 +57,10 @@ A resource group is a way to organize everything that you are going to build in 
 ![Alt Text](https://i.imgur.com/p6Vy68y.png)
 
 
-**In the top left I have a red circle showing where it says "Create". Click create to create our Resource group**
+
+* **In the top left I have a red circle showing where it says "Create". Click create to create our Resource group**
+
+
 
 ![Alt Text](https://i.imgur.com/YCggkD1.png)
 
