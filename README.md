@@ -14,6 +14,14 @@ The Domain Controller is a vital server that manages security and access in a ne
 * Microsoft Azure
 * Microsoft Remote Desktop to remote into the Vm's.
 
-##
-  
-[Click Here](https://azure.microsoft.com/en-us/free/)
+##Configuration Steps
+
+* Step 1: Create an Azure Account
+* Step 2: Create a resource group
+* Step 3: Create a virtual machine (Windows 11)
+* Step 4: Create another virtual machine but this time the windows server (Windows server 2019)
+
+## Step 1: Create an Azure account
+Before we can do anything in Azure we are going to have to create an account. When you create this free account you will have a $2oo subscription for a month. 
+
+To create your Azure account [Click Here](https://azure.microsoft.com/en-us/free/)
