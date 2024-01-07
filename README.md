@@ -25,7 +25,8 @@ The Domain Controller is a vital server that manages security and access in a ne
 ## Step 1: Create an Azure account
 Before we can do anything in Azure we are going to have to create an account. When you create this free account you will have a $2oo subscription for a month. 
 
-To create your Azure account [Click Here](https://azure.microsoft.com/en-us/free/) Click "Start Free". You will have to follow the instructions to sign up for the account. It's pretty straight forward and you can sign up with your email. It will ask for a credit card but it will not charge you until the $200 credit is used up or your 30 days expire. After you create your account you are now ready to start using Azure! In the Azure world you are now a Tenant!  
+Click "Start Free". You will have to follow the instructions to sign up for the account. It's pretty straight forward and you can sign up with your email. It will ask for a credit card but it will not charge you until the $200 credit is used up or your 30 days expire. After you create your account you are now ready to start using Azure! In the Azure world you are now a Tenant!  
+To create your Azure account [Click Here](https://azure.microsoft.com/en-us/free/) 
 
 ![Alt text](https://i.imgur.com/nj5Ln3I.png)
 
