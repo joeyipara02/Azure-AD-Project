@@ -16,7 +16,7 @@ The Domain Controller is a vital server that manages security and access in a ne
 
 ##Configuration Steps
 
-* Step 1: Create an ### Azure Account
+* Step 1: Create an <span style="font-size: larger;">Azure Account</span>
 * Step 2: Create a ### Resource Group
 * Step 3: Create a ### Virtual Machine (Windows 11)
 * Step 4: Create another virtual machine but this time the windows server (Windows server 2019)
