@@ -17,7 +17,8 @@ The Domain Controller is a vital server that manages security and access in a ne
 ##Configuration Steps
 
 * Step 1: Create an Azure Account
-* Step 2: Create a Resource Group
+* Step 2: Azure Portal Introduction
+* Step 3: Create a Resource Group
 * Step 3: Create a Virtual Machine (Windows 11)
 * Step 4: Create another virtual machine but this time the windows server (Windows server 2019)
 
@@ -29,6 +30,20 @@ To create your Azure account [Click Here](https://azure.microsoft.com/en-us/free
 Click "Start Free". You will have to follow the instructions to sign up for the account. It's pretty straight forward and you can sign up with your email. It will ask for a credit card but it will not charge you until the $200 credit is used up or your 30 days expire. After you create your account you are now ready to start using Azure! In the Azure world you are now a Tenant!  
 
 ![Alt text](https://i.imgur.com/nj5Ln3I.png)
+
+## Step 2: Azure portal Introduction 
+
+What is Azure portal? 
+
+Azure portal is the web based managment interface used on Microsoft Azure. It provides users with a centralized platform to deploy, manage, and monitor various cloud resources such as virtual machines, databases, and storage. Whenever you want to create a VM, NSG, Resource Group among other services Azure has to offer you wil be doing this in the Azure Portal.
+
+To get to your Azure Portal you can [Click Here](https://portal.azure.com/#home)
+
+
+
+## Step 3: Create a Resource Group in Azure portal. 
+
+In order to create a resource group we are going to create a new resource group. Click on Resource Group and select create new resource.  
 
 
 
