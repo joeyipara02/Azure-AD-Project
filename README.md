@@ -52,7 +52,7 @@ In order to create a resource group we are going to click on Resource Group.
 
 In the top left I have an arrow pointing to where it says "Create" Click create to create our Resource group. 
 
-(https://i.imgur.com/p6Vy68y.png)
+![Alt Text](https://i.imgur.com/p6Vy68y.png)
 
 
 
