@@ -31,9 +31,9 @@ Click "Start Free". You will have to follow the instructions to sign up for the 
 
 ![Alt text](https://i.imgur.com/nj5Ln3I.png)
 
-## Step 2: Azure portal Introduction 
+# Step 2: Azure Portal Introduction 
 
-What is Azure portal? 
+## What is Azure portal? 
 
 Azure portal is the web based managment interface used on Microsoft Azure. It provides users with a centralized platform to deploy, manage, and monitor various cloud resources such as virtual machines, databases, and storage. Whenever you want to create a VM, NSG, Resource Group among other services Azure has to offer you wil be doing this in the Azure Portal.
 
@@ -41,7 +41,7 @@ To get to your Azure Portal you can [Click Here](https://portal.azure.com/#home)
 
 
 
-## Step 3: Create a Resource Group in Azure portal. 
+# Step 3: Create a Resource Group in Azure portal. 
 
 In order to create a resource group we are going to create a new resource group. Click on Resource Group and select create new resource.  
 
