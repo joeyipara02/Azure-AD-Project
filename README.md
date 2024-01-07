@@ -26,6 +26,7 @@ Before we can do anything in Azure we are going to have to create an account. Wh
 
 To create your Azure account [Click Here](https://azure.microsoft.com/en-us/free/)
 
-![Alt text](https://i.imgur.com/example.jpg)
+![Alt text](https://i.imgur.com/nj5Ln3I.png)
+
 
 
