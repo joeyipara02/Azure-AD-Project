@@ -50,9 +50,9 @@ A resource group is a way to organize everything that you are going to build in 
 
 In order to create a resource group we are going to click on Resource Group. 
 
-In the top left I have an arrow pointing to where it says "Create" Click create to create our Resource group. 
-
 ![Alt Text](https://i.imgur.com/p6Vy68y.png)
 
+In the top left I have a red circle showing where it says "Create". Click create to create our Resource group. 
 
+![Alt Text](https://i.imgur.com/YCggkD1.png)
 
