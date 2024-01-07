@@ -25,3 +25,6 @@ The Domain Controller is a vital server that manages security and access in a ne
 Before we can do anything in Azure we are going to have to create an account. When you create this free account you will have a $2oo subscription for a month. 
 
 To create your Azure account [Click Here](https://azure.microsoft.com/en-us/free/)
+
+![Alt text](./Azure%20trial.png)
+
