@@ -23,12 +23,16 @@ The Domain Controller is a vital server that manages security and access in a ne
 * Step 4: Create another virtual machine but this time the windows server (Windows server 2019)
 
 ## Step 1: Create an Azure account
-Before we can do anything in Azure we are going to have to create an account. When you create this free account you will have a $2oo subscription for a month. 
+Before we can do anything in Azure we are going to have to create an account. When you create this free account you will have a $200 subscription for a month. 
 
-Click "Start Free". You will have to follow the instructions to sign up for the account. It's pretty straight forward and you can sign up with your email. It will ask for a credit card but it will not charge you until the $200 credit is used up or your 30 days expire. After you create your account you are now ready to start using Azure! In the Azure world you are now a Tenant!  
 To create your Azure account [Click Here](https://azure.microsoft.com/en-us/free/) 
 
 ![Alt text](https://i.imgur.com/nj5Ln3I.png)
+
+Click "Start Free". You will have to follow the instructions to sign up for the account. It's pretty straight forward and you can sign up with your email. It will ask for a credit card but it will not charge you until the $200 credit is used up or your 30 days expire. After you create your account you are now ready to start using Azure! In the Azure world you are now a Tenant!  
+
+
+
 
 # Step 2: Azure Portal Introduction 
 
@@ -38,8 +42,6 @@ Azure portal is the web based managment interface used on Microsoft Azure. It pr
 
 To get to your Azure Portal you can [Click Here](https://portal.azure.com/#home)
 
-
-
 # Step 3: Create a Resource Group in Azure portal. 
 
 ## What is a Resource Group?
@@ -47,7 +49,6 @@ To get to your Azure Portal you can [Click Here](https://portal.azure.com/#home)
 A resource group is a way to organize everything that you are going to build in your Azure environment. If you want to create a network with a few vm workstations and some servers you will need a centrailzed place to store all your network devices that you want on the same network. This is what the resource gorup does. Think of it as a container and you want to store all resources to your environment in one container.  
 
 In order to create a resource group we are going to click on Resource Group. 
-
 
 In the top left I have an arrow pointing to where it says "Create" Click create to create our Resource group. 
 
