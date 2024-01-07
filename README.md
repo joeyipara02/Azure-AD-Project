@@ -28,6 +28,4 @@ To create your Azure account [Click Here](https://azure.microsoft.com/en-us/free
 
 ![Alt text](https://i.imgur.com/yxKKE9o.png)
 
-[Click Here](https://www.espn.com/)
-
 
