@@ -88,4 +88,8 @@ A resource group is a way to organize everything that you are going to build in 
 ![Alt Text](https://i.imgur.com/5Rn5Fxx.png)
 
 
+* ** Just like we did with the resource group, we want to click "Create" and select on Azure Virtual Machine.**
+
+![Alt Text](https://i.imgur.com/jLLpnRZ.png)
+
 
