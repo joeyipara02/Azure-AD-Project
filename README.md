@@ -100,9 +100,9 @@ A resource group is a way to organize everything that you are going to build in 
 
 ![Alt Text](https://i.imgur.com/YDrpxtB.png)
 
-* **Name your Virtual Machine, for this example I'm just going to name it WindowsVm. Make sure your Region matches the same as After that you want to choose the image of the virtual machine you want to create. We are creating a Windows 11 VM so im going to scroll down and select Windows 11.**
+* **Name your Virtual Machine, for this example I'm just going to name it WindowsVm. Make sure your Region matches the same as the region you set your Resource Group to. After that you want to choose the image of the virtual machine you want to create. We are creating a Windows 11 VM so im going to scroll down and select Windows 11.**
 
-![Alt Text](https://i.imgur.com/YlIAGMD.png)
+![Alt Text](https://i.imgur.com/RpSsZbQ.png)
 
 
 
