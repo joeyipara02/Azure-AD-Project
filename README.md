@@ -126,7 +126,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 * **Your VM is now creating and once it's been validated it will say "Validation Passed". Just select "Create" and that will deploy your VM**
 
-![Alt Text](https://i.imgur.com/nj5Ln3I.png)
+![Alt Text](https://i.imgur.com/v7nUCI7.png)
 
 ** *Once the deployment is complete you have now creating a VM on Azure!! Congrats!**
 
