@@ -65,8 +65,13 @@ A resource group is a way to organize everything that you are going to build in 
 ![Alt Text](https://i.imgur.com/YCggkD1.png)
 
 
-* **Name the Resource Group whatever you want but this illustrion I'm going to name it ADProject**
+* **Name the Resource Group whatever you want but for this illustration I'm going to name it ADProject**
 
 
   ![Alt Text](https://i.imgur.com/e6S70iR.png)
+
+  * **Select from the drop down bar of what region you want to use. Select the region that you are closest too. This will help to reduce latency and improve performance. You also need to put all the machines that you want on the same network in the same region. I'm from the best coast the west coast so I'm going to select the Region (Us) West US 3.**
+ 
+
+  ![Alt Text](https://i.imgur.com/BHYGTl1.png)
 
