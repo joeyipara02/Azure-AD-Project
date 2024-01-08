@@ -20,7 +20,8 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 * Step 2: Azure Portal Introduction
 * Step 3: Create a Resource Group
 * Step 3: Create a Virtual Machine (Windows 11)
-* Step 4: Create another virtual machine but this time the windows server (Windows server 2019)
+* Step 4: Connect to Virtual Machine Using Remote Desktop
+* Step 5: Create another virtual machine (Windows server 2019)
 
 ## Step 1: Create an Azure account
 
@@ -130,9 +131,11 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 * **Once the deployment is complete you have now creating a VM on Azure. Congrats!!**
 
+# Step:4 Connect to Virtual Machine Using Remote Desktop
+
 ![Alt Text](https://i.imgur.com/ZICzVAv.png)
 
-* **Now that we created our VM let's go take a look at it. Navigate to the Azure portal and click on "Virtual Machine"**
+* **Now that we created our VM let's go take a look at it and see how we connect to it. Navigate to the Azure portal and click on "Virtual Machine"**
 
 ![Alt Text](https://i.imgur.com/5Rn5Fxx.png)
 
@@ -140,9 +143,15 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/Ze0bJrX.png) 
 
-* **In the overview of Virtual Machine it shows the "essentials" of our machine on the right. Look for your public IP address for your Virtual Machine. There's a "copy to clipboard right next to the public IP address. So copy the public IP address and once you've done that click on "Connect" and select the first option of "Connect"**
+* **In the overview of Virtual Machine it shows the "essentials" of our machine on the right. Look for your public IP address for your Virtual Machine. There's a "copy to clipboard" right next to the public IP address. So copy the public IP address and once you've done that click on "Connect" and select the first option of "Connect" This will be if you're using remote desktop to remote into the VM's**
 
 ![Alt Text](https://i.imgur.com/OdN0OnO.png)
+
+**If you are using a windows pc you will already have RDP. If you're a Mac user you can download RDP for Mac here.** [Click Here](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12)
+
+* **Download the RDP file and open it once it's done. It'll ask you for the PC that you are connecting to and that's where you want to paste your public IP Address. Type in the Administrative username and password that you created when you set up the VM.**
+
+
 
 
 
