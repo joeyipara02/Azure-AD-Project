@@ -140,6 +140,10 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/Ze0bJrX.png) 
 
+* **We are going to find the public IP address for our Virtual Machine. There's a "copy to clipboard right next to the public IP address. So copy the public IP address and once you've done that click on "Connect"**
+
+![Alt Text](https://i.imgur.com/o9O8yWG.png)
+
 
 
 
