@@ -74,7 +74,7 @@ A resource group is a way to organize everything that you are going to build in 
 * **Select from the drop down bar of what region you want to use. Select the region that you are closest too. This will help to reduce latency and improve performance. You also need to put all the machines that you want on the same network in the same region. I'm from the best coast the west coast so I'm going to select the Region (Us) West US 3.**
  
 
-  ![Alt Text](https://i.imgur.com/nj5Ln3I.png)
+  ![Alt Text](https://i.imgur.com/W3YnU6n.png)
 
 
   * ** Click "Review and Create" and you've just created your Resource Group! Now we can add our vm's and add them to the resource group we just created!**
