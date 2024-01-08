@@ -164,7 +164,12 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 # Step 5: Create a Windows Server VM (Windows Server 2019)
 
-* **The next step is to create a virtual machine with windows server 2019. Go back to the Azure home portal and click on virutal machine and "create". Make sure you sync the same Resource Group and Region that we first created. I have mine under ADProject and (US) West US 3 so I'm going to select those options and then name this vm Domain Controller.**
+* **The next step is to create a virtual machine with windows server 2019. Go back to the Azure home portal and click on virutal machine and "create".**
+
+![Alt Text](https://i.imgur.com/5Rn5Fxx.png)
+
+
+* **Make sure you sync the same Resource Group and Region that we first created. I have mine under ADProject and (US) West US 3 so I'm going to select those options and then name this vm Domain Controller.**
 
 ![Alt Text](https://i.imgur.com/kYyJwg7.png)
 
