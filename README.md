@@ -112,7 +112,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/IBYoYcJ.png)
 
-* **Next we are going to set the Adminstrative username and password for the workstation. This will be the login to remote into you VM. So don't forget this and make it simple. As you can see I just set mine to Admin123 and made a simple password. Dont forget to check the box on the bottom left. I have it circled, it's easy to miss when making a VM.**
+* **Next we are going to set the Administrative username and password for the workstation. This will be the login to remote into you VM. So don't forget this and make it simple. As you can see I just set mine to Admin123 and made a simple password. Dont forget to check the box on the bottom left. I have it circled, it's easy to miss when making a VM.**
 
 ![Alt Text](https://i.imgur.com/HuML7RE.png)
 
