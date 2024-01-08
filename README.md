@@ -194,7 +194,10 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 ![Alt Text](https://i.imgur.com/iSoTK2k.png)
 
 
-* **
+* **When you remote into your DC with your administrator username and password you're pc wil load up and this Server Manager dashboard will pop up. This is where we will install Active Directory from and how we will promote it to our Domain Controller. Congrats on sucessfully creating and remoting into your windows server!!**
+
+
+![Alt Text](https://i.imgur.com/dbEd28C.jpg)
 
 
 
