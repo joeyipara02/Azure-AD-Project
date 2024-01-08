@@ -128,9 +128,9 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/v7nUCI7.png)
 
-** *Once the deployment is complete you have now creating a VM on Azure!! Congrats!**
+** *Once the deployment is complete you have now creating a VM on Azure. Congrats**
 
-![Alt Text](https://i.imgur.com/nj5Ln3I.png)
+![Alt Text](https://i.imgur.com/ZICzVAv.png)
 
 
 
