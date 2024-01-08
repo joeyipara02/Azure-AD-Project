@@ -157,7 +157,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/W8EemPm.png)
 
-* **CONGRADULATIONS!!!! You've just successfully set up a Vm and remoted into it!**
+* **CONGRATULATIONS!!!! You've just successfully set up a Vm and remoted into it!**
 
 ![Alt Text](https://i.imgur.com/dYOiR9J.png)
 
