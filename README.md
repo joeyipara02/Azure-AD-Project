@@ -116,4 +116,15 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/HuML7RE.png)
 
+* **Select on the networking tab**
+
+![Alt Text](https://i.imgur.com/34JCsIn.png)
+
+* **Check on the box that says "Delete public IP and NIC when VM is deleted". You're only given a certain amout of public IP addresses so I recommend selecting this when creating VM's. It's also good practice for the real world. In the real world this will help prevent potential costs,enhances security and it assures the removal of any associated networking components. After you check that box you can select "Review and Create".**
+
+![Alt Text](https://i.imgur.com/LAnYqcf.png)
+
+
+
+
 
