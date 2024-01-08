@@ -150,9 +150,15 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/OdN0OnO.png)
 
-**If you are using a windows pc you will already have RDP. If you're a Mac user you can download RDP for Mac here.** [Click Here](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12)
+* **If you are using a windows pc you will already have RDP. If you're a Mac user you can download RDP for Mac here.** [Click Here](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12)
 
 * **Download the RDP file and open it once it's done. It'll ask you for the PC that you are connecting to and that's where you want to paste your public IP Address. Type in the Administrative username and password that you created when you set up the VM.**
+
+![Alt Text](https://i.imgur.com/W8EemPm.png)
+
+* **CONGRADULATIONS!!!! You've just successfully set up a Vm and remoted into it!**
+
+![Alt Text](https://i.imgur.com/dYOiR9J.png)
 
 
 
