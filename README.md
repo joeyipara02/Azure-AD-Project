@@ -106,6 +106,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 * **The next thing you're going to do is select the size of your vm. This will allocate your CPU and Ram for your VM. I had some issues running my VM's with the Standard size. If you are having performance issues or don't want to wait and see if your VM is slow I'll show how to change to size of your Vm. Click on "See all sizes"**
 
+![Alt Text](https://i.imgur.com/fmFNKEr.png)
 
 
 
