@@ -22,7 +22,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 * Step 3: Create a Resource Group
 * Step 3: Create a Virtual Machine (Windows 11)
 * Step 4: Connect to Virtual Machine Using Remote Desktop
-* Step 5: Create another virtual machine (Windows server 2019)
+* Step 5: Create a Windows server VM (Windows Server 2019)
 
 ## Step 1: Create an Azure account
 
@@ -161,6 +161,8 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/dYOiR9J.png)
 
+
+# Step 5: Create a Windows server VM (Windows Server 2019)
 
 
 
