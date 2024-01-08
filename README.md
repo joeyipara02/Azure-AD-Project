@@ -76,5 +76,6 @@ A resource group is a way to organize everything that you are going to build in 
 
   ![Alt Text](https://i.imgur.com/W3YnU6n.png)
 
-* **Click "Review and Create" and you've just created your Resource Group! Now we can add our vm's and add them to the resource group we just created!**
+* **Click "Review and Create". On the next page just Click on Create on the bottom left where theres another arrow pointing to where its located. You have now created your resource group!**
+![Alt Text](https://i.imgur.com/amMSExQ.png)
 
