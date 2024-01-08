@@ -132,6 +132,10 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/ZICzVAv.png)
 
+* **Now that we created our VM let's go take a look at it. Navigate to the Azure portal and click on "Virtual Machine"**
+
+![Alt Text](https://i.imgur.com/5Rn5Fxx.png)
+
 
 
 
