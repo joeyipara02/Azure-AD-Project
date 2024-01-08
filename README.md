@@ -189,9 +189,9 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 ![Alt Text](https://i.imgur.com/dlYuXfH.png)
 
 
-* **Go to the networking tab and make sure you check the box to delete your public IP address and Nic after the vm is deleted**
+* **Go to the networking tab and make sure you check the box to delete your public IP address and Nic after the vm is deleted. After that click on "Review and Create" Once your vm passes validation it'll be ready to deploy and remote into!!**
 
-![Alt Text](https://i.imgur.com/cb8M32Y.png)
+![Alt Text](https://i.imgur.com/iSoTK2k.png)
 
 
 
