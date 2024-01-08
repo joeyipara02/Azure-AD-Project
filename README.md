@@ -174,7 +174,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 ![Alt Text](https://i.imgur.com/kYyJwg7.png)
 
 
-* **After that you want to choose the image of the virtual machine you want to create. We are creating a Windows 2019 Server so im going to scroll down and select "Windows Server 2019 Datacenter" 
+* **After that you want to choose the image of the virtual machine you want to create. We are creating a Windows 2019 Server so im going to scroll down and select "Windows Server 2019 Datacenter"** 
 
 ![Alt Text](https://i.imgur.com/RmuwdXC.png)
 
@@ -184,6 +184,8 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 
 * **Go to the networking tab and make sure you check the box to delete your public IP address and Nic after the vm is deleted**
+
+![Alt Text](https://i.imgur.com/cb8M32Y.png)
 
 
 
