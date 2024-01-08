@@ -96,7 +96,7 @@ A resource group is a way to organize everything that you are going to build in 
 ![Alt Text](https://i.imgur.com/jLLpnRZ.png)
 
 
-* ** First thing we are going to do is click on the drop down bar on Resource Group and select the Resource Group you just created. The name of my Resource Group is ADProject so I'm going to select on ADProject.
+* ** First thing we are going to do is click on the drop down bar on Resource Group and select the Resource Group you just created. The name of my Resource Group is ADProject so I'm going to select on ADProject.**
 
 ![Alt Text](https://i.imgur.com/YDrpxtB.png)
 
