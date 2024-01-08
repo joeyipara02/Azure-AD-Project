@@ -174,9 +174,18 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 ![Alt Text](https://i.imgur.com/kYyJwg7.png)
 
 
-* **After that you want to choose the image of the virtual machine you want to create. We are creating a Windows 2019 Server so im going to scroll down and select "Windows Server 2019 Datacenter"
+* **After that you want to choose the image of the virtual machine you want to create. We are creating a Windows 2019 Server so im going to scroll down and select "Windows Server 2019 Datacenter" 
 
 ![Alt Text](https://i.imgur.com/RmuwdXC.png)
+
+* **I'm going to choose the same size of the vm as I did for my workstation. I had issues installing AD on this server with only 1GB. So I recommend upgrading the size on this. I selected the B2ms**
+
+ ![Alt Text](https://i.imgur.com/M2zNy95.png)
+
+
+* **Go to the networking tab and make sure you check the box to delete your public IP address and Nic after the vm is deleted**
+
+
 
 
 
