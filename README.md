@@ -131,9 +131,12 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 * **Once the deployment is complete you have now creating a VM on Azure. Congrats!!**
 
-# Step:4 Connect to Virtual Machine Using Remote Desktop
 
 ![Alt Text](https://i.imgur.com/ZICzVAv.png)
+
+
+# Step:4 Connect to Virtual Machine Using Remote Desktop
+
 
 * **Now that we created our VM let's go take a look at it and see how we connect to it. Navigate to the Azure portal and click on "Virtual Machine"**
 
