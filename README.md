@@ -5,9 +5,9 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ## What is Active Directory and a Domain Controller?
 
-Active Directory is like the phone book for a computer network. It contains a list of users, computers, and groups, ensuring everyone can find and access the right information. It's the organizational backbone of your network. 
+* Active Directory is like the phone book for a computer network. It contains a list of users, computers, and groups, ensuring everyone can find and access the right information. It's the organizational backbone of your network. 
 
-The Domain Controller is a vital server that manages security and access in a network. It holds Active Directory, which keeps track of users, computers, and permissions. The Domain Controller authenticates users, allowing or denying access to network resources based on predefined rules. It acts as the control center, ensuring a secure and organized network environment.
+* The Domain Controller is a vital server that manages security and access in a network. It holds Active Directory, which keeps track of users, computers, and permissions. The Domain Controller authenticates users, allowing or denying access to network resources based on predefined rules. It acts as the control center, ensuring a secure and organized network environment.
 
 ## Environments and Technologies Used
 
@@ -38,7 +38,7 @@ The Domain Controller is a vital server that manages security and access in a ne
 ## What is Azure portal? 
 
 
-Azure portal is the web based managment interface used on Microsoft Azure. It provides users with a centralized platform to deploy, manage, and monitor various cloud resources such as virtual machines, databases, and storage. Whenever you want to create a VM, NSG, Resource Group among other services Azure has to offer you wil be doing this in the Azure Portal.
+* Azure portal is the web based managment interface used on Microsoft Azure. It provides users with a centralized platform to deploy, manage, and monitor various cloud resources such as virtual machines, databases, and storage. Whenever you want to create a VM, NSG, Resource Group among other services Azure has to offer you wil be doing this in the Azure Portal.
 
 
 * **To get to your Azure Portal you can [Click Here](https://portal.azure.com/#home)**
@@ -48,7 +48,7 @@ Azure portal is the web based managment interface used on Microsoft Azure. It pr
 
 ## What is a Resource Group?
 
-A resource group is a way to organize everything that you are going to build in your Azure environment. If you want to create a network with a few vm workstations and some servers you will need a centrailzed place to store all your network devices that you want on the same network. This is what the resource gorup does. Think of it as a container and you want to store all resources to your environment in one container.  
+* A resource group is a way to organize everything that you are going to build in your Azure environment. If you want to create a network with a few vm workstations and some servers you will need a centrailzed place to store all your network devices that you want on the same network. This is what the resource gorup does. Think of it as a container and you want to store all resources to your environment in one container.  
 
 * **In order to create a resource group, we are going to click on Resource Group.**
 
@@ -96,13 +96,15 @@ A resource group is a way to organize everything that you are going to build in 
 ![Alt Text](https://i.imgur.com/jLLpnRZ.png)
 
 
-* ** First thing we are going to do is click on the drop down bar on Resource Group and select the Resource Group you just created. The name of my Resource Group is ADProject so I'm going to select on ADProject.**
+* **First thing we are going to do is click on the drop down bar on Resource Group and select the Resource Group you just created. The name of my Resource Group is ADProject so I'm going to select on ADProject.**
 
 ![Alt Text](https://i.imgur.com/YDrpxtB.png)
 
 * **Name your Virtual Machine, for this example I'm just going to name it WindowsVm. Make sure your Region matches the same as the region you set your Resource Group to. After that you want to choose the image of the virtual machine you want to create. We are creating a Windows 11 VM so im going to scroll down and select Windows 11.**
 
 ![Alt Text](https://i.imgur.com/RpSsZbQ.png)
+
+* **The next thing you're going to do is select the size of your vm. This will allocate your CPU and Ram for your VM. I had some issues running my VM's with the Standard size. If you are having performance issues or don't want to wait and see if your VM is slow I'll show how to change to size of your Vm. Click on "See all sizes"**
 
 
 
