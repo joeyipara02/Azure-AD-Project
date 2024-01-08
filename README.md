@@ -108,6 +108,9 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/fmFNKEr.png)
 
+* **Select B2ms for the size of the VM. This VM will have 2 virtual CPU's and 8 gb of virtual ram. Once you've done that click on "Select" at the bottom left corner. Also don't let the cost of the size scare you. You will not be charged for this. It just shows the cost if you were paying for the feature. It will be taken from your subscription so you are not being charged. Also, you are limited on resources, so by doing this on your workstation VM and your DC will max out your VCPU usage. Once you delete them, you can create VMs again**
+
+![Alt Text](https://i.imgur.com/IBYoYcJ.png)
 
 
 
