@@ -64,3 +64,9 @@ A resource group is a way to organize everything that you are going to build in 
 
 ![Alt Text](https://i.imgur.com/YCggkD1.png)
 
+
+* **Name the Resource Group whatever you want but this illustrion I'm going to name it ADProject**
+
+
+  ![Alt Text](https://i.imgur.com/e6S70iR.png)
+
