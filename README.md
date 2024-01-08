@@ -183,6 +183,12 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
  ![Alt Text](https://i.imgur.com/M2zNy95.png)
 
 
+ * **Create the username and password for the DC. This will be the username and password you use to remote into your DC. Im going to keep it simple and keep it as Admin123**
+
+
+![Alt Text](https://i.imgur.com/dlYuXfH.png)
+
+
 * **Go to the networking tab and make sure you check the box to delete your public IP address and Nic after the vm is deleted**
 
 ![Alt Text](https://i.imgur.com/cb8M32Y.png)
