@@ -200,6 +200,8 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 ![Alt Text](https://i.imgur.com/dbEd28C.jpg)
 
 
+* **Now that we have both machines on the same network we have to make sure they can talk to each other. We will use the ping command to do that. But in order to ping each other we have to change some settings on our firewall on both machines. In the windows search bar type "Windows Defender Firewall" and look for the "Windows Defender Firewall with Advance Security" and click "Open"**
 
+![Alt Text](https://i.imgur.com/jsmzlmn.png)
 
 
