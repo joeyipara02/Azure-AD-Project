@@ -199,6 +199,10 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/dbEd28C.jpg)
 
+* **Now that we have both machines installed we need to make sure they can talk to each other. We will use the command "ping" to see if the machines can communicate with each other. Due to firewall rules we won't be able to just ping the machine. We are going to have enable two firewall rules on our windows 11 VM. In your search bar in windows type "Windows Defender Firewall with Advanced Security" and hit enter.
+
+![Alt Text](https://i.imgur.com/jsmzlmn.png)
+
 
 
 
