@@ -266,6 +266,10 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/822f6RH.png)
 
+* **Click on the "Add roles and features" in Server Manager
+
+![Alt Text](https://i.imgur.com/K0Aetmo.png)
+
 
 
 
