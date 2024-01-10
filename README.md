@@ -250,6 +250,8 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 * **Uncheck the box for public and then hit "Apply" and "Ok"**
 
+![Alt Text](https://i.imgur.com/GLVEYOW.png)
+
 
 
 
