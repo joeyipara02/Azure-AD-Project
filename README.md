@@ -266,6 +266,6 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 
 
-
+$${\color{red}NOTE!!}$$
 
 
