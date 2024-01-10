@@ -247,17 +247,18 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/Tq4T5Wq.png)
 
-* **After you make the firewall changes to your Windows 2019 Server, log back into your Windows 11 VM and ping your Windows 2019 Server. You should now be getting successful pings from your Windows 11 VM to your Windows 2019 Server. Now we know both machines can talk to each other!**
-
-![Alt Txt](https://i.imgur.com/NOIdH1g.png)
-
-* **If you had to create the firewall rule manually, you'll want to go into the firewall settings and uncheck the box labeled 'public.' This rule is specifically for private and domain networks, and we don't want the public to be able to ping our machines. Double-click on this rule.**
+* **If you didn't have to create a firewall rule with the command proceed to step 7. If you had to create the firewall rule manually, you'll want to go into the firewall settings and uncheck the box labeled 'public.' This rule is specifically for private and domain networks, and we don't want the public to be able to ping our machines. Double-click on this rule.**
 
 ![Alt Text](https://i.imgur.com/bXfVRoA.png)
 
 * **Uncheck the box for public and then hit "Apply" and "Ok"**
 
 ![Alt Text](https://i.imgur.com/GLVEYOW.png)
+
+* **After you make the firewall changes to your Windows 2019 Server, log back into your Windows 11 VM and ping your Windows 2019 Server. You should now be getting successful pings from your Windows 11 VM to your Windows 2019 Server. Now we know both machines can talk to each other!**
+
+![Alt Txt](https://i.imgur.com/NOIdH1g.png)
+
 
 # Step 7: Install Active Directory and promote to Domain Controller
 
