@@ -203,7 +203,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/GMSgu2W.png)
 
-* **Now lets try and ping our Windows Vm from the command prompt in oue windows 2019 server. My private IP Address for my Windows 11 VM is 10.0.0.4 so I will type in "ping 10.0.0.4"**
+* **Now lets try and ping our Windows Vm from the command prompt in our Windows 2019 Server. My private IP Address for my Windows 11 VM is 10.0.0.4 so I will type in "ping 10.0.0.4". As you can see we are not getting any successful pings. That's because it's getting blocked by our Windows Defender Firewall. We will need to enable a few rules in our firewall**
 
 ![Alt Text](https://i.imgur.com/GP2UpFk.png)
 
