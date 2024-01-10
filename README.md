@@ -262,7 +262,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 # Step 7: Install Active Directory and promote to Domain Controller
 
-
+- **<span style="color:red;">NOTE!!</span>**
 
 
 
