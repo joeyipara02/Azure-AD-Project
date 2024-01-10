@@ -262,6 +262,8 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 # Step 7: Install Active Directory and promote to Domain Controller
 
+* **Log back into your Windows 2019 Server Machine and open up "Server Manager". This is where we are going to install Active Directory**
+
 
 
 
