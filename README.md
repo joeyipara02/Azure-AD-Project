@@ -199,7 +199,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/dbEd28C.jpg)
 
-* **Now that both machines are installed, ensure they can communicate using the "ping" command. Due to firewall rules, direct pinging won't work initially. To enable this, we will have to enable two firewall rules on our Windows 11 VM. Open "Windows Defender Firewall with Advanced Security" by typing it into the Windows search bar and hitting Enter.
+* **Now that both machines are installed, ensure they can communicate using the "ping" command. Due to firewall rules, direct pinging won't work initially. To enable this, we will have to enable two firewall rules on our Windows 11 VM. Open "Windows Defender Firewall with Advanced Security" by typing it into the Windows search bar and click on "open" or just press enter.
 
 ![Alt Text](https://i.imgur.com/jsmzlmn.png)
 
