@@ -203,6 +203,10 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/jsmzlmn.png)
 
+* **Click on "Inbound Rules". We are looking for the rule that says "Core Networking Diagnostics-ICMP Echo Request (ICMPV4-in)". We want to enable both the private and domain firewall rule for echo requests. This will allow this machine to recieve ping requests from other machines that are on a private or domain network.**
+
+![Alt Text](https://i.imgur.com/fwOitmK.png)
+
 
 
 
