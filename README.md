@@ -247,7 +247,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/Tq4T5Wq.png)
 
-* **If you didn't have to create a firewall rule with the command proceed to step 7. If you had to create the firewall rule manually, you'll want to go into the firewall settings and uncheck the box labeled 'public.' This rule is specifically for private and domain networks, and we don't want the public to be able to ping our machines. Double-click on this rule.**
+* **If you didn't have to create a firewall rule with the command proceed to step 7. If you had to create the firewall rule manually, you'll want to go into the firewall settings and uncheck the box labeled 'public.' This rule is specifically for private and domain networks, and we don't want the public to be able to ping our machines. Double-click on the rule "ICMP Allows Incoming V4 Echo Request"**
 
 ![Alt Text](https://i.imgur.com/bXfVRoA.png)
 
