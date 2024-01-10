@@ -220,6 +220,10 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/adwdL97.png)
 
+* **Once you've enabled those rules log back into your windows 2019 server and try and ping your Windows 11 VM. Now you should be getting successful pings which means your devices can successfully talk to each other.**
+
+![Alt Text](https://i.imgur.com/miZQubq.png)
+
 
 
 
