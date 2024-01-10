@@ -228,7 +228,11 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/fwOitmK.png)
 
-* **NOTTEEE!! If your windows 2019 server doesn't show the firewall rule you can run a command in the cmd prompt that will create this firewall rule and will allow you to make this change. For some reason my Windows 2019 Server didn't show the firewall rules that are listed. So if this happens to you just open up your cmd prompt on your Windows 2019 Server and run this command: netsh advfirewall firewall add rule name="ICMP Allow Incoming V4 Echo Request" protocol=icmpv4:8,any dir=in action=allow
+* **NOTTEEE!! If your windows 2019 server doesn't show the firewall rule you can run a command in the cmd prompt that will create this firewall rule and will allow you to make this change. For some reason my Windows 2019 Server didn't show the firewall rules that I needed. So if this happens to you just open up your cmd prompt on your Windows 2019 Server and run this command: netsh advfirewall firewall add rule name="ICMP Allow Incoming V4 Echo Request" protocol=icmpv4:8,any dir=in action=allow**
+
+![Alt Text](https://i.imgur.com/U504RSU.png)
+
+
 
 
 
