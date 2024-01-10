@@ -24,6 +24,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 * Step 4: Connect to Virtual Machine Using Remote Desktop
 * Step 5: Create a Windows server VM (Windows Server 2019)
 * Step 6: Establish a connection between the Domain Controller and Windows 11 VM
+* Step 7: Install Active Directory and promote to Domain Controller. 
 
 ## Step 1: Create an Azure account
 
@@ -257,6 +258,8 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 * **Uncheck the box for public and then hit "Apply" and "Ok"**
 
 ![Alt Text](https://i.imgur.com/GLVEYOW.png)
+
+# Step 7: Install Active Directory and promote to Domain Controller
 
 
 
