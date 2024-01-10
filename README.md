@@ -262,6 +262,8 @@ $${\color{red}NOTE!!}$$ If your Windows 2019 Server doesn't show the firewall ru
 
 # Step 7: Install Active Directory and promote to Domain Controller
 
+<code style="Red : name_color">NOTE!!</code>
+
 
 
 
