@@ -23,6 +23,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 * Step 3: Create a Virtual Machine (Windows 11)
 * Step 4: Connect to Virtual Machine Using Remote Desktop
 * Step 5: Create a Windows server VM (Windows Server 2019)
+* Step 6: Establish a connection between the Domain Controller and Windows 11 VM
 
 ## Step 1: Create an Azure account
 
@@ -209,6 +210,8 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 
 ![Alt Text](https://i.imgur.com/dbEd28C.jpg)
+
+# Step 6: Establish a connection between the Domain Controller and Windows 11 VM
 
 * **Now that both machines are installed, ensure they can communicate using the "ping" command. Login to your Domain Controller and in the windows search bar type in "cmd" and hit enter. This will bring up your command prompt and you can now use the ping command to ping your windows 11 VM.**
 
