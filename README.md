@@ -216,7 +216,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/fwOitmK.png)
 
-* **Double click on the rule and check the box to "enable" and then hit "apply" and "ok". Do this for both rules. After you do this you can remote into your windows server vm.**
+* **Double click on the rule and check the box to "enable" and then hit "apply" and "ok". Do this for both the rules that I showed you.**
 
 ![Alt Text](https://i.imgur.com/adwdL97.png)
 
