@@ -236,6 +236,9 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Txt](https://i.imgur.com/NOIdH1g.png)
 
+* **If you had to create the firewall rule manually you're gjoing to want to go into this firewall and uncheck the box that says "public". We are just making this rule for private and domain networks. We don't want the public to be able to ping our machines. So double click on this rule**
+
+![Alt Text](https://i.imgur.com/bXfVRoA.png)
 
 
 
