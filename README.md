@@ -262,7 +262,15 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 # Step 7: Install Active Directory and promote to Domain Controller
 
-$${\color{red}Red}$$
+\documentclass{article}
+\usepackage{xcolor}
+
+\begin{document}
+
+\textcolor{red}{NOTE!!} If your Windows 2019 Server doesn't show the firewall rule, you can run a command in the cmd prompt that will create this firewall rule and will allow you to make this change. For some reason my Windows 2019 Server didn't show the firewall rules that I needed. So if this happens to you just open up your cmd prompt on your Windows 2019 Server and run this command and when it says "OK" it was successful: \texttt{netsh advfirewall firewall add rule name="ICMP Allow Incoming V4 Echo Request" protocol=icmpv4:8,any dir=in action=allow}
+
+\end{document}
+
 
 
 
