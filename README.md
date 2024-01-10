@@ -193,6 +193,8 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/iSoTK2k.png)
 
+* **But before we remote into our VM we have to make our Server a static IP Address. This is going to be our Domain Controller so we don't want this IP Address to change. If the DC obtained a new IP Address from DHCP then all devices on the network would lose connection to the domain controller and no devices will be on the network. 
+
 
 * **When you remote into your DC with your administrator username and password your pc wil load up and this Server Manager dashboard will pop up. This is where we will install Active Directory from and how we will promote it to our Domain Controller. Congrats on sucessfully creating and remoting into your windows server!!**
 
