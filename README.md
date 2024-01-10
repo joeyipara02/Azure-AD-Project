@@ -232,6 +232,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/U504RSU.png)
 
+* **After you make the firewall changes to your Windows 2019 Server, log back into your Windows 11 VM and ping your Windows 2019 Server. You should now be getting successful pings to your Windows 2019 Server. Now we know both machines can talk to each other!**
 
 
 
