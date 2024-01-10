@@ -199,13 +199,26 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/dbEd28C.jpg)
 
-* **Now that both machines are installed, ensure they can communicate using the "ping" command. Due to firewall rules, direct pinging won't work initially. To enable this, we will have to enable two firewall rules on our Windows 11 VM. Remote into your windows 11 VM with your administrator username and password. Open "Windows Defender Firewall with Advanced Security" by typing it into the Windows search bar and click on "open" or just press enter.**
+* **Now that both machines are installed, ensure they can communicate using the "ping" command. Login to your Windows 2019 server and in the windows search bar type in "cmd" and hit enter. This will bring up your command prompt and you can now use the ping command to ping your windows 11 VM.**
+
+![Alt Text](https://i.imgur.com/GMSgu2W.png)
+
+* **Now lets try and ping our Windows Vm from the command prompt in oue windows 2019 server. My private IP Address for my Windows 11 VM is 10.0.0.4 so I will type in "ping 10.0.0.4"**
+
+![Alt Text](https://i.imgur.com/GP2UpFk.png)
+
+ 
+ * **To enable this, we will have to enable two firewall rules on our Windows 11 VM. Remote into your windows 11 VM with your administrator username and password. Open "Windows Defender Firewall with Advanced Security" by typing it into the Windows search bar and click on "open" or just press enter.**
 
 ![Alt Text](https://i.imgur.com/jsmzlmn.png)
 
 * **Click on "Inbound Rules". We are looking for the rule that says "Core Networking Diagnostics-ICMP Echo Request (ICMPv4-in)". We want to enable both the private and domain firewall rule for echo requests. This will allow this machine to recieve ping requests from other machines that are on a private or domain network.**
 
 ![Alt Text](https://i.imgur.com/fwOitmK.png)
+
+* **Double click on the rule and check the box to "enable" and then hit "apply" and "ok". Do this for both rules. After you do this you can remote into your windows server vm.**
+
+![Alt Text](https://i.imgur.com/adwdL97.png)
 
 
 
