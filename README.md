@@ -199,13 +199,15 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/dbEd28C.jpg)
 
-* **Now that both machines are installed, ensure they can communicate using the "ping" command. Due to firewall rules, direct pinging won't work initially. To enable this, we will have to enable two firewall rules on our Windows 11 VM. Open "Windows Defender Firewall with Advanced Security" by typing it into the Windows search bar and click on "open" or just press enter.**
+* **Now that both machines are installed, ensure they can communicate using the "ping" command. Due to firewall rules, direct pinging won't work initially. To enable this, we will have to enable two firewall rules on our Windows 11 VM. Remote into your windows 11 VM with your administrator username and password. Open "Windows Defender Firewall with Advanced Security" by typing it into the Windows search bar and click on "open" or just press enter.**
 
 ![Alt Text](https://i.imgur.com/jsmzlmn.png)
 
-* **Click on "Inbound Rules". We are looking for the rule that says "Core Networking Diagnostics-ICMP Echo Request (ICMPV4-in)". We want to enable both the private and domain firewall rule for echo requests. This will allow this machine to recieve ping requests from other machines that are on a private or domain network.**
+* **Click on "Inbound Rules". We are looking for the rule that says "Core Networking Diagnostics-ICMP Echo Request (ICMPv4-in)". We want to enable both the private and domain firewall rule for echo requests. This will allow this machine to recieve ping requests from other machines that are on a private or domain network.**
 
 ![Alt Text](https://i.imgur.com/fwOitmK.png)
+
+
 
 
 
