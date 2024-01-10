@@ -224,6 +224,10 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/miZQubq.png)
 
+* **Now that we know we can ping our Windows Vm from our Windows 2019 Server. We need to check if our Windows 11 VM can ping the windows server machine. But we already know they have firewall rules in place to block ping request so you're going to have to do the same steps on the windows server. Just follow the same steps we just did in the Windows VM**
+
+![Alt Text](https://i.imgur.com/fwOitmK.png)
+
 
 
 
