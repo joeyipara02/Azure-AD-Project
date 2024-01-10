@@ -195,7 +195,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/iSoTK2k.png)
 
-* **But before we remote into our Windows Server we have to make our Server a static IP Address. This is going to be our Domain Controller so we don't want this IP Address to change. If the DC obtained a new IP Address from DHCP then all devices on the network would lose connection to the domain controller and no devices will be on the network. Click on your Windows Server VM and click on "Network Settings"**
+* **But before we remote into our Domain Controller we have to make our Server a static IP Address. This is going to be our Domain Controller so we don't want this IP Address to change. If the DC obtained a new IP Address from DHCP then all devices on the network would lose connection to the Domain Controller and no devices will be on the network. Click on your Domain Controller VM and click on "Network Settings"**
 
  ![Alt Text](https://i.imgur.com/NQNZObS.png)
 
