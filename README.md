@@ -185,7 +185,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
  ![Alt Text](https://i.imgur.com/M2zNy95.png)
 
 
- * **Create the username and password for the DC. This will be the username and password you use to remote into your DC. Im going to keep it simple and keep it as Admin123**
+ * **Create the username and password for the Windows 2019 Server. This will be the username and password you use to remote into your DC once we promote this server to a DC. Im going to keep it simple and keep it as Admin123**
 
 
 ![Alt Text](https://i.imgur.com/dlYuXfH.png)
@@ -195,7 +195,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/iSoTK2k.png)
 
-* **But before we remote into our Domain Controller we have to make our Server a static IP Address. This is going to be our Domain Controller so we don't want this IP Address to change. If the DC obtained a new IP Address from DHCP then all devices on the network would lose connection to the Domain Controller and no devices will be on the network. Click on your Domain Controller VM and click on "Network Settings"**
+* **But before we remote into our Windows 2019 Server we have to make our Server a static IP Address. This is going to be our Domain Controller so we don't want this IP Address to change. If the DC obtained a new IP Address from DHCP then all devices on the network would lose connection to the Domain Controller and no devices will be on the network. Click on your Windows 2019 Server VM and click on "Network Settings"**
 
  ![Alt Text](https://i.imgur.com/NQNZObS.png)
 
@@ -207,18 +207,18 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![ALt Text](https://i.imgur.com/KcylFlZ.png)
 
-* **Now we can remote into our server now that we set it the IP Address to Static. When you remote into your DC with your administrator username and password your VM wil load up and this Server Manager dashboard will pop up. This is where we will install Active Directory from and how we will promote it to our Domain Controller. Congrats on sucessfully creating and remoting into your windows server!!**
+* **Now we can remote into our server now that we set it the IP Address to Static. When you remote into your Windows 2019 Server with your administrator username and password your VM wil load up and this Server Manager dashboard will pop up. This is where we will install Active Directory from and how we will promote it to our Windows 2019 Server. Congrats on sucessfully creating and remoting into your windows server!!**
 
 
 ![Alt Text](https://i.imgur.com/dbEd28C.jpg)
 
-# Step 6: Establish a connection between the Domain Controller and Windows 11 VM
+# Step 6: Establish a connection between the Windows 2019 Server and Windows 11 VM
 
-* **Now that both machines are installed, ensure they can communicate using the "ping" command. Login to your Domain Controller and in the windows search bar type in "cmd" and hit enter. This will bring up your command prompt and you can now use the ping command to ping your windows 11 VM.**
+* **Now that both machines are installed, ensure they can communicate using the "ping" command. Login to your Windows 2019 Server and in the windows search bar type in "cmd" and hit enter. This will bring up your command prompt and you can now use the ping command to ping your windows 11 VM.**
 
 ![Alt Text](https://i.imgur.com/GMSgu2W.png)
 
-* **Now lets try and ping our Windows Vm from the command prompt in our Domain Controller. My private IP Address for my Windows 11 VM is 10.0.0.4 so I will type in "ping 10.0.0.4". As you can see we are not getting any successful pings. That's because it's getting blocked by our Windows Defender Firewall. We will need to enable a few rules in our firewall**
+* **Now lets try and ping our Windows Vm from the command prompt in our Windows 2019 Server. My private IP Address for my Windows 11 VM is 10.0.0.4 so I will type in "ping 10.0.0.4". As you can see we are not getting any successful pings. That's because it's getting blocked by our Windows Defender Firewall. We will need to enable a few rules in our firewall**
 
 ![Alt Text](https://i.imgur.com/GP2UpFk.png)
 
@@ -235,19 +235,19 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/adwdL97.png)
 
-* **Once you've enabled those rules log back into your Domain Controller and try and ping your Windows 11 VM. Now you should be getting successful pings which means your devices can successfully talk to each other.**
+* **Once you've enabled those rules log back into your Windows 2019 Server and try and ping your Windows 11 VM. Now you should be getting successful pings which means your Windows 2019 Server can talk to the Windows Vm.**
 
 ![Alt Text](https://i.imgur.com/miZQubq.png)
 
-* **Now that we know we can ping our Windows Vm from our Domain Controller. We need to check if our Windows 11 VM can ping the windows server machine. But we already know they have firewall rules in place to block ping request so you're going to have to do the same steps on the Domain Controller. Just follow the same steps we just did in the Windows VM**
+* **Now that we know we can ping our Windows Vm from our Windows 2019 Server. We need to check if our Windows 11 VM can ping the Windows 2019 Server. But we already know they have firewall rules in place to block ping request so you're going to have to do the same steps on the Windows 2019 Server. Just follow the same steps we just did in the Windows VM**
 
 ![Alt Text](https://i.imgur.com/fwOitmK.png)
 
-* **NOTE!! If your Domain Controller doesn't show the firewall rule you can run a command in the cmd prompt that will create this firewall rule and will allow you to make this change. For some reason my Domain Controller didn't show the firewall rules that I needed. So if this happens to you just open up your cmd prompt on your Windows 2019 Server and run this command and when it says "OK" it was successful: netsh advfirewall firewall add rule name="ICMP Allow Incoming V4 Echo Request" protocol=icmpv4:8,any dir=in action=allow**
+* **NOTE!! If your Windows 2019 Server doesn't show the firewall rule you can run a command in the cmd prompt that will create this firewall rule and will allow you to make this change. For some reason my Windows 2019 Server didn't show the firewall rules that I needed. So if this happens to you just open up your cmd prompt on your Windows 2019 Server and run this command and when it says "OK" it was successful: netsh advfirewall firewall add rule name="ICMP Allow Incoming V4 Echo Request" protocol=icmpv4:8,any dir=in action=allow**
 
 ![Alt Text](https://i.imgur.com/Tq4T5Wq.png)
 
-* **After you make the firewall changes to your Windows 2019 Server, log back into your Windows 11 VM and ping your Domain Controller. You should now be getting successful pings from your Windows 11 VM to your Domain Controller. Now we know both machines can talk to each other!**
+* **After you make the firewall changes to your Windows 2019 Server, log back into your Windows 11 VM and ping your Windows 2019 Server. You should now be getting successful pings from your Windows 11 VM to your Windows 2019 Server. Now we know both machines can talk to each other!**
 
 ![Alt Txt](https://i.imgur.com/NOIdH1g.png)
 
