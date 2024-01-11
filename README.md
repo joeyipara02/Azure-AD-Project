@@ -317,7 +317,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 * **Go back to your Azure portal and and click on your Windows 11 VM**
 
-![Alt Text](https://i.imgur.com/GEvHkww.png)
+![Alt Text](https://i.imgur.com/KKlL3kF.png)
 
 * **Click on "Networking" under the "Settings" section**
 
@@ -330,6 +330,10 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 * **Click on "DNS Servers"**
 
 ![Alt Text](https://i.imgur.com/EbGEpbw.png)
+
+* **Check the "Custom" box and then type in the private IP Address of your Domain Controller. Mine is 10.0.0.5 so I will type that in and the click on the "Save" disk.**
+
+
 
 
 
