@@ -288,6 +288,10 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/cimPbA2.png)
 
+* **Check the box for "Add a new forest" and type in the name you want your domain to be. I'm just going to use "Domain.com" to keep it simple. After you name it click "Next" and follow throught until completion.
+
+![Alt Text](https://i.imgur.com/xIJFftv.png)
+
 
 
 
