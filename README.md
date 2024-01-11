@@ -382,8 +382,13 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/qkwYEok.png)
 
+* **I'll create a sub-OU inside 'IT' by right-clicking on it, selecting 'New,' and then choosing 'Organizational Unit"**
+![Alt Text](https://i.imgur.com/1e7mHyd.png) 
 
 
+* **I'm going to name this sub-OU "Users" and click "OK"**
+
+![Alt Text](https://i.imgur.com/kbw6ogX.png)
 
 
 
