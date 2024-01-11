@@ -315,6 +315,10 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 # Step 8: Join Windows 11 VM to the Domain
 
+* **Go back to your Azure portal and and click on your Windows 11 VM**
+
+![Alt Text](https://i.imgur.com/GEvHkww.png)
+
 
 
 
