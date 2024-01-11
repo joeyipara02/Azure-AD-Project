@@ -394,6 +394,12 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/hpjlNLG.png)
 
+* **Fill out the information for your user. I'm going to name this user Mike Jones and create a username of "mjones281@domain.com". and click "Next"**
+
+![Alt Text](https://i.imgur.com/4XaqTLh.png)
+
+* **Create a password for your user. I'm going to uncheck "User must 
+
 
 
  
