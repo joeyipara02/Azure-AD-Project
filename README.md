@@ -319,11 +319,11 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/GEvHkww.png)
 
-* **Click on "Networking" undert the "Settings" section**
+* **Click on "Networking" under the "Settings" section**
 
 ![Alt Text](https://i.imgur.com/JN6HZ1a.png)
 
-* **Click on Network Interface of the VM**
+* **Click on the Network Interface of the VM**
 
 ![Alt Text](https://i.imgur.com/5RXMrBu.png)
 
