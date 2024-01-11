@@ -352,7 +352,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
  ![Alt Text](https://i.imgur.com/ksfkfgj.png)
 
- * **It will then ask you for the Administrative username and password for the Windows VM. Click "Ok" and it will say "Welcome to the domain" and it will have you restart your vm**
+ * **It will then ask you for the Administrative username and password for the Windows VM. Click "Ok" and it will say "Welcome to the yourdomain.com domain" and it will have you restart your vm**
 
   ![Alt Text](https://i.imgur.com/aWujWon.png)
 
@@ -379,6 +379,8 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 ![Alt Text](https://i.imgur.com/TS30cb3.png)
 
 * **To keep it simple I'm just going to name this Organizational Unit "IT" and click on "Ok".**
+
+![Alt Text](https://i.imgur.com/qkwYEok.png)
 
 
 
