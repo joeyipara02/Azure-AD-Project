@@ -67,7 +67,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 
 
-![Alt Text](https://i.imgur.com/YCggkD1.png)
+![Alt Text](https://i.imgur.com/alKRJST.png)
 
 
 * **Name the Resource Group whatever you want but for this illustration I'm going to name it ADProject**
@@ -98,7 +98,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 
 
-![Alt Text](https://i.imgur.com/alKRJST.png)
+![Alt Text](https://i.imgur.com/jLLpnRZ.png)
 
 
 * **First thing we are going to do is click on the drop down bar on Resource Group and select the Resource Group you just created. The name of my Resource Group is ADProject so I'm going to select on ADProject.**
