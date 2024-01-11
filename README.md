@@ -335,9 +335,22 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/J36uUWM.png)
 
+* **Log into your Windows 11 VM and in the Windows search bar type "About this PC" and hit enter**
+
+![Alt Text](https://i.imgur.com/StbRVJw.png)
+
+* **Click on the "Domain or Workgroup"**
+
+![Alt Text](https://i.imgur.com/tXpkFxJ.png)
 
 
+* **Click on "Change"**
 
+![Alt Text](https://i.imgur.com/O1mnbiX.png)
+
+* **Check the box "Domain" and type in the name of the domain you created. I will type in domain.com since that's the domain name I created for my domain. Click on "Ok"**
+
+ ![Alt Text](https://i.imgur.com/ksfkfgj.png)
 
  
 
