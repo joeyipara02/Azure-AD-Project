@@ -300,6 +300,21 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/FvF47lq.png)
 
+* **Finish out in installation by clicking "Install". You will get warning signs but don't mind those it's normal. This process will take a little while and will restart when it's done.**
+
+![Alt Text](https://i.imgur.com/3OBKDiM.png)
+
+* **Login to the Domain Controller we just promoted. Click on the Windows start button and type "About this PC" and hit enter.**
+
+![Alt Text](https://i.imgur.com/N9t7MeP.png)
+
+* **You can see that we successfully promoted Active Directory to a Domain Controller with the PC name showing "DomainController"(missing the r I think it was too long of a name). You can also see that we are on the domain "Domain.com" which is the name my domain I just created.**
+
+![Alt Text](https://i.imgur.com/PcvHAdc.png)
+
+
+
+
 
 
 
