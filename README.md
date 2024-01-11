@@ -308,7 +308,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/N9t7MeP.png)
 
-* **You can see that we successfully promoted Active Directory to a Domain Controller with the PC name showing "DomainController"(missing the r I think it was too long of a name). You can also see that we are on the domain "Domain.com" which is the name my domain I just created.**
+* **You can see that we successfully promoted Active Directory to a Domain Controller with the PC name showing "DomainControlle"🤣(missing the "r" I think it was too long of a name). You can also see that we are on the domain "Domain.com" which is the name my domain I just created.**
 
 ![Alt Text](https://i.imgur.com/PcvHAdc.png)
 
