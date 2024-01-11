@@ -327,6 +327,12 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/5RXMrBu.png)
 
+* **Click on "DNS Servers"**
+
+![Alt Text](https://i.imgur.com/EbGEpbw.png)
+
+
+
  
 
 
