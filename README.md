@@ -398,7 +398,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/4XaqTLh.png)
 
-* **Create a password for your user. I'm going to uncheck "User must change password at next login". In the real world you will keep this box checked. Help Desk will assign a password like "example123" just to create the profile. But when the user logins for the first time with this password they will then be asked to change their password to the length and security requirements of the organization.**
+* **Create a password for your user. I'm going to uncheck "User must change password at next login". In the real world you will keep this box checked. Help Desk will assign a password like "example123" to create the profile. Wen the user logins for the first time with this password they will then be asked to change their password to the length and security requirements of the organization password requirements.**
 
 ![Alt Text](https://i.imgur.com/6DlCMjV.png)
 
