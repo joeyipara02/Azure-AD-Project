@@ -270,6 +270,19 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/K0Aetmo.png)
 
+* **Click on "Next" until you get to the "Server Roles" tab.**
+
+![Alt Text](https://i.imgur.com/BtGqdmd.png) 
+
+* **When you get to the "Server Roles" page you want to select on "Active Directory Domain Services"**
+
+![Alt Text](https://i.imgur.com/2ozgLVu.png)
+
+* **Click on "Add Features" and click "Next" until you see  "Install"**
+
+![Alt Text](https://i.imgur.com/WyXtzpj.png)
+
+![Alt Text](https://i.imgur.com/h1wstvF.png)
 
 
 
