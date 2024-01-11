@@ -352,6 +352,12 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
  ![Alt Text](https://i.imgur.com/ksfkfgj.png)
 
+ * **It will then ask you for the Administrative username and password for the Windows VM. Click "Ok" and it will say "Welcome to the domain" and it will have you restart your vm**
+
+* **Log back into your Windows VM when it restarts and type in "CMD" in the windows search bar and hit enter.**
+
+![Alt Text](https://i.imgur.com/Y8uKRIQ.png)
+
  
 
 
