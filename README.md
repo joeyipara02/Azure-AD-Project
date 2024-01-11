@@ -455,11 +455,11 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 * **Click on the "Remote" tab and click on "Select Users**
 
-[Alt Text](https://i.imgur.com/KIgvTY9.png)
+![Alt Text](https://i.imgur.com/KIgvTY9.png)
 
 * **Click on "Add"**
 
-[Alt Text](https://i.imgur.com/WgX3Gfe.png)
+![Alt Text](https://i.imgur.com/WgX3Gfe.png)
 
 * **Type in the name of the user and click "Check Names". It'll ask for the admin username and password. Once you enter that in hit "OK"**
 
