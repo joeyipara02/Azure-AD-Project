@@ -333,7 +333,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 * **Check the "Custom" box and then type in the private IP Address of your Domain Controller. Mine is 10.0.0.5 so I will type that in and the click on the "Save" disk.**
 
-![Alt Text](https://i.imgur.com/J36uUWM.png)
+![Alt Text](https://i.imgur.com/2NNHy8W.png)
 
 * **Log into your Windows 11 VM and in the Windows search bar type "About this PC" and hit enter**
 
