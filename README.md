@@ -390,6 +390,10 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/kbw6ogX.png)
 
+* **Now, we're going to create a user in Active Directory and place that user in the 'Users' Sub-OU within the 'IT' OU. Click on the "IT" OU and right click the sub-ou "Users". Select "New" and then select "User"**
+
+![Alt Text](https://i.imgur.com/hpjlNLG.png)
+
 
 
  
