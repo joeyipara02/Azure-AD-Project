@@ -364,7 +364,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/sqWicBf.png)
 
-# Step 9: Create Users, OU's and a Security Group
+# Step 9: Create a User, OU's and a Security Group
 
 * **Login to your Domain Contoller. The "Server Manager" will automatically open up. On the right hand side click on "Tools" and select "Active Directory Users and Computers"**
 
@@ -408,6 +408,16 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/tJZnRrZ.png) 
 
+* **Now we will create a Security Group and add this user to that security group. Right click on your domain and select "New" and then "Group"**
+
+![Alt Text](https://i.imgur.com/yYjBrMf.png)
+
+* **Type in the name of your group. I'm going to name this group "Information Technology". This will mean that anyone that is part of this security group will have the rights of permissions associated with this group.
+
+![Alt Text](https://i.imgur.com/p7ztfsD.png)
+
+
+# Step 10: Login to the Windows VM with the User created in AD
 
 
 
