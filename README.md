@@ -270,7 +270,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/K0Aetmo.png)
 
-* **Click on "Next" until you get to the "Server Roles" tab.**
+* **Click on "Next" until you get to the "Server Roles" page.**
 
 ![Alt Text](https://i.imgur.com/BtGqdmd.png) 
 
@@ -278,7 +278,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/2ozgLVu.png)
 
-* **Click on "Add Features" and click "Next" until you see  "Install"**
+* **Click on "Add Features" and click "Next" until you see "Install"**
 
 ![Alt Text](https://i.imgur.com/WyXtzpj.png)
 
