@@ -449,6 +449,12 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/zvzqo8S.png)
 
+* **Click on "Advanced System Settings"**
+
+![Alt Text](https://i.imgur.com/a8ucorm.png)
+
+
+
 
 
 
