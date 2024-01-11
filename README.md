@@ -288,9 +288,17 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/cimPbA2.png)
 
-* **Check the box for "Add a new forest" and type in the name you want your domain to be. I'm just going to use "Domain.com" to keep it simple. After you name it click "Next" and follow throught until completion.
+* **Check the box for "Add a new forest" and type in the name you want your domain to be. I'm just going to use "Domain.com" to keep it simple. After you name it click "Next"**
 
 ![Alt Text](https://i.imgur.com/xIJFftv.png)
+
+* **Type in the password you created for Windows 2019 Server and click "Next"**
+
+![Alt Text](https://i.imgur.com/ZCN9UfV.png)
+
+* **Dont worry about this message just go ahead and click "Next".**
+
+![Alt Text](https://i.imgur.com/FvF47lq.png)
 
 
 
