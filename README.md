@@ -335,7 +335,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/2NNHy8W.png)
 
-* **Log into your Windows 11 VM and in the Windows search bar type "About this PC" and hit enter**
+* **Login to your Windows 11 VM and in the Windows search bar type "About this PC" and hit enter**
 
 ![Alt Text](https://i.imgur.com/StbRVJw.png)
 
