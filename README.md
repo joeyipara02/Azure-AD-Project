@@ -368,6 +368,9 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/s9ADIzg.png)
 
+* **Click on the expand button next to your domain name.**
+
+![Alt Text](https://i.imgur.com/nZYi0S3.png)
 
 
  
