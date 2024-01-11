@@ -354,6 +354,8 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
  * **It will then ask you for the Administrative username and password for the Windows VM. Click "Ok" and it will say "Welcome to the domain" and it will have you restart your vm**
 
+  ![Alt Text](https://i.imgur.com/aWujWon.png)
+
 * **Log back into your Windows VM when it restarts and type in "CMD" in the windows search bar and hit enter.**
 
 ![Alt Text](https://i.imgur.com/Y8uKRIQ.png)
@@ -371,6 +373,16 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 * **Click on the expand button next to your domain name.**
 
 ![Alt Text](https://i.imgur.com/nZYi0S3.png)
+
+* **Right click on your domain name and select "New" and "Organizational Unit"**
+
+![Alt Text](https://i.imgur.com/TS30cb3.png)
+
+* **To keep it simple I'm just going to name this Organizational Unit "IT" and click on "Ok".**
+
+
+
+
 
 
  
