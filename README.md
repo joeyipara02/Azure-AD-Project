@@ -364,7 +364,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 # Step 9: Create Users, OU's and a Security Group
 
-* **Login to your Domain Contoller. The "Server Manager" will automatically open up. On the right and side click on "Tools" and select "Active Directory Users and Computers"**
+* **Login to your Domain Contoller. The "Server Manager" will automatically open up. On the right and side click on "Tools" hand select "Active Directory Users and Computers"**
 
 ![Alt Text](https://i.imgur.com/s9ADIzg.png)
 
