@@ -321,17 +321,19 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 * **Click on "Networking" under the "Settings" section**
 
-![Alt Text](https://i.imgur.com/JN6HZ1a.png)
+![Alt Text](https://i.imgur.com/bW383LX.png)
 
 * **Click on the Network Interface of the VM**
 
-![Alt Text](https://i.imgur.com/5RXMrBu.png)
+![Alt Text](https://i.imgur.com/usiexg8.png)
 
 * **Click on "DNS Servers"**
 
-![Alt Text](https://i.imgur.com/EbGEpbw.png)
+![Alt Text](https://i.imgur.com/6WcBr01.png)
 
 * **Check the "Custom" box and then type in the private IP Address of your Domain Controller. Mine is 10.0.0.5 so I will type that in and the click on the "Save" disk.**
+
+![Alt Text](https://i.imgur.com/J36uUWM.png)
 
 
 
