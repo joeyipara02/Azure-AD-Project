@@ -437,7 +437,9 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/Kwwar1n.png)
 
-* **Check on "Remote Desktop Users"**
+* **Check on "Remote Desktop Users" and click "OK". We have now added this year to the "Remote Desktop Users"**
+
+![Alt Text](https://i.imgur.com/XJUBK8Q.png)
 
 
 
