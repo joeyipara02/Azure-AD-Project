@@ -402,8 +402,11 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/6DlCMjV.png)
 
+* **Click on finish and now the user has been created! Click on the "IT" OU and click on the sub-Ou of "Users" and you will see the user you just created!!**
 
- 
+![Alt Text](https://i.imgur.com/Ky5jdUk.png)
+
+![Alt Text](https://i.imgur.com/tJZnRrZ.png) 
 
 
 
