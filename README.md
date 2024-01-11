@@ -441,6 +441,10 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/XJUBK8Q.png)
 
+* **Now we are going to login to our Windows 11 VM with our administrative username and password for our machine. Not the username and password we just created, but the admin username and password we created for this machine. So I'm going to login with Admin123 into my Windows 11 VM**
+
+![Alt Text](https://i.imgur.com/i6dDp5H.png)
+
 
 
 
