@@ -445,6 +445,11 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/i6dDp5H.png)
 
+* **In your windows search bar type in "System Properties" and hit enter**
+
+![Alt Text](https://i.imgur.com/zvzqo8S.png)
+
+
 
 
 
