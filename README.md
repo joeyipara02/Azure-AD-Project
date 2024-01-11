@@ -426,6 +426,8 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/kKSroVe.png)
 
+* **Now to verify if he's been added to that security group, you can right click on the user and select "Properties". Click on the tab that says "Members of". As you can see our user has successfully been added to the "Information Technology" group.**
+![Alt Text](https://i.imgur.com/5Lp3K2q.png)
 # Step 10: Login to the Windows VM with the User created in AD
 
 
