@@ -284,6 +284,10 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/h1wstvF.png)
 
+* **Once the installation of Active Directory is complete you will see see a yellow hazard symbol next to the notifications flag. Click on the the yellow hazard then click "Promote this server to a domain controller".**
+
+![Alt Text](https://i.imgur.com/cimPbA2.png)
+
 
 
 
