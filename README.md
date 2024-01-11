@@ -358,6 +358,12 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/Y8uKRIQ.png)
 
+* **In the CMD type in "ipconfig /all" and hit enter. Here you will see the Windows 11 VM Primary DNS Suffix is"domain.com". That's telling us that this VM belongs to the domain of "domain.com". The DNS server for this VM is 10.0.0.5 which is the IP of our Domain Controller! Congrats!!! You have now joined your windows 11 vm to the domain !!!**
+
+![Alt Text](https://i.imgur.com/sqWicBf.png)
+
+
+
  
 
 
