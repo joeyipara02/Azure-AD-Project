@@ -27,7 +27,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 * Step 7: Install Active Directory and promote to Domain Controller.
 * Step 8: Join Windows 11 VM to the Domain.
 
-## Step 1: Create an Azure account
+# Step 1: Create an Azure account
 
 * **Before we can do anything in Azure we are going to have to create an account. When you create this free account you will have a $200 subscription for a month.**
 
