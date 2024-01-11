@@ -432,9 +432,10 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 # Step 10: Login to the Windows VM with the User created in AD
 
 * **The first thing we are going to do is add our user to the security group "Remote Desktop Users". While we previously learned how to create a security group, this time we'll join a group that already exists. Adding a user to the "Remote Desktop Users" group grants them the rights to use Remote Desktop. We want to right click on our user and select "Add to a group". Type in "Remote" and then click "Check Names".**
+![Alt Text](https://i.imgur.com/CXW0TK5.png)
 ![Alt Text](https://i.imgur.com/Kwwar1n.png)
 
-* **Check on "Remote Desktop Users"
+* **Check on "Remote Desktop Users"**
 
 
 
