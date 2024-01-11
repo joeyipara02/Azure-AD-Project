@@ -301,7 +301,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/FvF47lq.png)
 
-* **Finish out in installation by clicking "Install". You will get warning signs but don't mind those it's normal. This process will take a little while and will restart when it's done.**
+* **Finish out the installation by clicking "Install". You will get warning signs but don't mind those it's normal. This process will take a little while and will restart when it's done.**
 
 ![Alt Text](https://i.imgur.com/3OBKDiM.png)
 
@@ -366,7 +366,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 # Step 9: Create Users, OU's and a Security Group
 
-* **Login to your Domain Contoller. The "Server Manager" will automatically open up. On the right and side click on "Tools" hand select "Active Directory Users and Computers"**
+* **Login to your Domain Contoller. The "Server Manager" will automatically open up. On the right hand side click on "Tools" and select "Active Directory Users and Computers"**
 
 ![Alt Text](https://i.imgur.com/s9ADIzg.png)
 
