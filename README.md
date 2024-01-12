@@ -2,7 +2,7 @@
 
 # Objective
 
-Microsoft Azure is a cloud-based platform that provides various tools and services. This guide will take you through creating an account, setting up a Windows 11 virtual machine (VM), and configuring Active Directory (AD) on a Windows Server 2019. The server will then be promoted to a domain controller (DC). Afterward, we'll join the Windows 11 VM to the domain we just created. Following that, we'll create users, organizational units (OUs), groups, and demonstrate how to add a user to a security group and OU.
+Microsoft Azure is a cloud-based platform that provides various tools and services. This guide will take you through creating an account, setting up a Windows 11 virtual machine (VM), and configuring Active Directory (AD) on a Windows Server 2019. The server will then be promoted to a domain controller (DC). Afterward, we'll join the Windows 11 VM to the domain we just created. Following that, we'll create users, organizational units (OUs), groups, and demonstrate how to add a user to a security group and OU. In this guide I will walk you step by step from a perspective of someone with no IT experience. This was my first time messing around in Azure and I thought I would help others like me who have no experience. I hope by the end of this guide you will have confidence to talk about Active Directory and Domain Controllers in your interviews with confidence. This is coming from someone with no IT experience so it is a little lengthy with some steps being "obvious" to most. I
 
 ## What is Active Directory and a Domain Controller?
 
