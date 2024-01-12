@@ -471,10 +471,15 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/bJ8drSb.png)
 
-* **Log in to your Windows 11 VM, click on "More choices" and then select "Use a different account" Here, enter your username, followed by @domain you created. For example, for me, it will be mjones281@domain.com. Yours will be your created username followed by @yourdomain**
+* **Log in to your Windows 11 VM, click on "More choices" and then select "Use a different account"**
 
-![Alt Text](https://i.imgur.com/cZf5hEL.png)
+ ![Alt Text](https://i.imgur.com/sJbH5T3.png)
 
+* **Enter your username, followed by @domain you created. For example, for me, it will be mjones281@domain.com. Yours will be your created username followed by @yourdomain**
+
+ ![Alt Text](https://i.imgur.com/fbep0OU.png)
+
+ 
 
 
 
