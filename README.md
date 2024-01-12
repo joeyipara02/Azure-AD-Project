@@ -2,7 +2,7 @@
 
 # Objective
 
-Microsoft Azure is a cloud-based platform that provides various tools and services. This guide will take you through creating an account, setting up a Windows 11 virtual machine (VM), and configuring Active Directory (AD) on a Windows Server 2019. The server will then be promoted to a domain controller (DC). Afterward, we'll join the Windows 11 VM to the domain we just created. Following that, we'll create users, organizational units (OUs), groups, and demonstrate how to add a user to a security group and OU. 
+In this beginner-friendly guide, I'll walk you through the process of utilizing Microsoft Azure, a cloud-based platform that provides various tools and services. This guide will take you through creating an Azure account, setting up a Windows 11 Virtual Machine, and configuring Active Directory on a Windows Server 2019. The server will then be promoted to a domain controller (DC). Afterward, we'll join the Windows 11 VM to the domain we just created. Following that, we'll create users, organizational units (OUs), groups, and demonstrate how to add a user to a security group and OU. 
 
 ## What is Active Directory and a Domain Controller?
 
@@ -26,6 +26,8 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 * Step 6: Establish a connection between the Domain Controller and Windows 11 VM
 * Step 7: Install Active Directory and promote to Domain Controller.
 * Step 8: Join Windows 11 VM to the Domain.
+* Step 9: Create a user, OUs, and a Security Group in Active Directory  
+* Step 10: Log in to the Windows VM with the AD user credentials
 
 # Step 1: Create an Azure account
 
@@ -364,7 +366,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
 ![Alt Text](https://i.imgur.com/sqWicBf.png)
 
-# Step 9: Create a User, OU's and a Security Group
+# Step 9: Create a user, OUs, and a Security Group in Active Directory
 
 * **Login to your Domain Contoller. The "Server Manager" will automatically open up. On the right hand side click on "Tools" and select "Active Directory Users and Computers"**
 
@@ -429,7 +431,7 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 * **Now to verify if the user has been added to our security group you can right click on the user and select "Properties". Click on the tab that says "Members of". As you can see our user has successfully been added to the "Information Technology" group.**
 ![Alt Text](https://i.imgur.com/5Lp3K2q.png)
 
-# Step 10: Login to the Windows VM with the User created in AD
+# Step 10: Log in to the Windows VM with the AD user credentials
 
 * **Login to your Domain Controller**
 
