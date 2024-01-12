@@ -482,7 +482,9 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
  * **You have successfully remoted in with the user you just created in Active Directory congrats!!!!!!**
 
 ![Alt Text](https://i.imgur.com/ekHMnXU.png)
- 
+
+* **You can open the CMD and type am "whoami" and it will show you are signed in with the user you created!!**
+ ![Alt Text](https://i.imgur.com/OPjcH06.png)
 
 
 
