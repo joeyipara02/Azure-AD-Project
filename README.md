@@ -479,6 +479,9 @@ Microsoft Azure is a cloud-based platform that provides various tools and servic
 
  ![Alt Text](https://i.imgur.com/fbep0OU.png)
 
+ * **You have successfully remoted in with the user you just created in Active Directory congrats!!!!!!**
+
+![Alt Text](https://i.imgur.com/ekHMnXU.png)
  
 
 
