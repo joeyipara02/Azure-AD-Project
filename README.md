@@ -23,7 +23,7 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 * Step 3: Create a Virtual Machine (Windows 11)
 * Step 4: Connect to Virtual Machine Using Remote Desktop
 * Step 5: Create a Windows server VM (Windows Server 2019)
-* Step 6: Establish a connection between the Domain Controller and Windows 11 VM
+* Step 6: Establish a connection between our Windows Server 2019 and Windows 11 VM
 * Step 7: Install Active Directory and promote to Domain Controller.
 * Step 8: Join Windows 11 VM to the Domain.
 * Step 9: Create a user, OUs, and a Security Group in Active Directory  
@@ -215,7 +215,7 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![Alt Text](https://i.imgur.com/dbEd28C.jpg)
 
-# Step 6: Establish a connection between the Windows 2019 Server and Windows 11 VM
+# Step 6: Establish a connection between our Windows Server 2019 and Windows 11 VM
 
 * **Now that both machines are installed, ensure they can communicate using the "ping" command. Login to your Windows 2019 Server and in the windows search bar type in "cmd" and hit enter. This will bring up your command prompt and you can now use the ping command to ping your windows 11 VM.**
 
