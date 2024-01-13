@@ -230,11 +230,11 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![Alt Text](https://i.imgur.com/jsmzlmn.png)
 
-* **Click on "Inbound Rules". We are looking for the rule that says "Core Networking Diagnostics-ICMP Echo Request (ICMPv4-in)". We want to enable both the private and domain firewall rule for echo requests. This will allow this machine to recieve ping requests from other machines that are on a private or domain network.**
+* **Click on "Inbound Rules." Look for the rule that says "Core Networking Diagnostics-ICMP Echo Request (ICMPv4-in)." Enable both the private and domain firewall rules for echo requests. This will allow this machine to receive ping requests from other machines on a private or domain network**
 
 ![Alt Text](https://i.imgur.com/fwOitmK.png)
 
-* **Double click on the rule and check the box to "enable" and then hit "apply" and "ok". Do this for both the rules that I showed you.**
+* **Double-click on the rule, check the box to "enable," and then click "Apply" and "OK." Repeat this process for both rules that I showed you.**
 
 ![Alt Text](https://i.imgur.com/adwdL97.png)
 
@@ -242,15 +242,15 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![Alt Text](https://i.imgur.com/miZQubq.png)
 
-* **Now that we know we can ping our Windows Vm from our Windows 2019 Server. We need to check if our Windows 11 VM can ping the Windows 2019 Server. But we already know they have firewall rules in place to block ping request so you're going to have to do the same steps on the Windows 2019 Server. Just follow the same steps we just did in the Windows VM**
+* **Now that we know we can ping our Windows VM from our Windows 2019 Server, we need to check if our Windows 11 VM can ping the Windows 2019 Server. However, we already know there are firewall rules in place to block ping requests, so you'll have to follow the same steps on the Windows 2019 Server. Just follow the same steps we did on the Windows VM**
 
 ![Alt Text](https://i.imgur.com/fwOitmK.png)
 
-**$${\color{red}NOTE!!}$$ If your Windows 2019 Server doesn't show the firewall rule, you can run a command in the cmd prompt that will create this firewall rule and will allow you to make this change. For some reason my Windows 2019 Server didn't show the firewall rules that I needed. So if this happens to you just open up your cmd prompt on your Windows 2019 Server and run this command and when it says "OK" it was successful: netsh advfirewall firewall add rule name="ICMP Allow Incoming V4 Echo Request" protocol=icmpv4:8,any dir=in action=allow**
+**$${\color{red}NOTE!!}$$ If your Windows 2019 Server doesn't show the firewall rule, you can run a command in the cmd prompt that will create this firewall rule and will allow you to make this change. For some reason, my Windows 2019 Server didn't show the firewall rules that I needed. So, if this happens to you, just open up your cmd prompt on your Windows 2019 Server and run this command. When it says "OK," it was successful: netsh advfirewall firewall add rule name="ICMP Allow Incoming V4 Echo Request" protocol=icmpv4:8,any dir=in action=allow**
 
 ![Alt Text](https://i.imgur.com/Tq4T5Wq.png)
 
-* **If you didn't have to create a firewall rule with the command proceed to step 7. If you had to create the firewall rule manually, you'll want to go into the firewall settings and uncheck the box labeled 'public.' This rule is specifically for private and domain networks, and we don't want the public to be able to ping our machines. Double-click on the rule "ICMP Allows Incoming V4 Echo Request"**
+* **If you didn't have to create a firewall rule with the command proceed to ping your Windows Server. If you had to create the firewall rule manually, you'll want to go into the firewall settings and uncheck the box labeled 'public.' This rule is specifically for private and domain networks, and we don't want the public to be able to ping our machines. Double-click on the rule "ICMP Allows Incoming V4 Echo Request"**
 
 ![Alt Text](https://i.imgur.com/bXfVRoA.png)
 
