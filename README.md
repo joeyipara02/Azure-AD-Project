@@ -72,7 +72,7 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 ![Alt Text](https://i.imgur.com/alKRJST.png)
 
 
-* **Next we are going to name our Resource Group. It doesn't matter what you name it just be sure to select this Resource Group when you create your VM's. For this illustration I'm going to name it "ADProject"**
+* **Next, we're going to name our Resource Group. It doesn't matter what you name it, just make sure to select this Resource Group when creating your VMs. For this demonstration, I'm going to name it "ADProject**
 
 
 ![Alt Text](https://i.imgur.com/e6S70iR.png)
