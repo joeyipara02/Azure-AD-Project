@@ -57,7 +57,7 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 * A resource group is a way to organize everything that you are going to build in your Azure environment. If you want to create a network with a few vm workstations and some servers you will need a centrailzed place to store all your network devices that you want on the same network. This is what the resource gorup does. Think of it as a container and you want to store all resources to your environment in one container.  
 
-* **In order to create a resource group, we are going to click on "Resource Group".**
+* **In order to create a resource group, we're going to click on "Resource Group".**
 
 
 
@@ -65,7 +65,7 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 
 
-* **In the top left I have a red circle showing where it says "Create". Click "create" to create our Resource group**
+* **In the top left, I have a red circle showing where it says "Create." Click "Create" to create our Resource Group**
 
 
 
@@ -103,11 +103,11 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 ![Alt Text](https://i.imgur.com/vnJPr37.png)
 
 
-* **First thing we are going to do is click on the drop down bar on Resource Group and select the Resource Group you just created. The name of my Resource Group is ADProject so I'm going to select ADProject.**
+* **The first thing we're going to do is click on the drop-down bar on "Resource Group" and select the Resource Group you just created. The name of my Resource Group is ADProject, so I'm going to select ADProject.**
 
 ![Alt Text](https://i.imgur.com/YDrpxtB.png)
 
-* **Name your Virtual Machine, for this example I'm just going to name it WindowsVm. Make sure your Region matches the same as the region you set your Resource Group to. After that you want to choose the image of the virtual machine you want to create. We are creating a Windows 11 VM so im going to scroll down and select Windows 11.**
+* **Name your Virtual Machine, for this demonstration, I'm just going to name it "WindowsVm". Make sure your Region matches the same region you set for your Resource Group. After that, choose the image of the virtual machine you want to create. Since we are creating a Windows 11 VM, I'm going to scroll down and select Windows 11.**
 
 ![Alt Text](https://i.imgur.com/RpSsZbQ.png)
 
@@ -115,11 +115,11 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![Alt Text](https://i.imgur.com/fmFNKEr.png)
 
-* **Select B2ms for the size of the VM. This VM will have 2 virtual CPU's and 8 gb's of virtual ram. Once you've done that click on "Select" at the bottom left corner. Also don't let the cost of the size scare you. You will not be charged for this. It just shows the cost if you were paying for the feature. It will be taken from your subscription so you are not being charged. Also, you are limited on resources, so by doing this on your workstation VM and your Windows Server it'll max out your VcPU usage. Once you delete your VM's, it'll delete everything and you can create VM's and won't be maxed out on VcPU's**
+* **Select B2ms for the size of the VM. This VM will have 2 virtual CPUs and 8 GB of virtual RAM. Once you've done that, click on "Select" at the bottom left corner. Also, don't let the cost of the size scare you. You will not be charged for this, it just shows the cost if you were paying for the feature. The cost will be deducted from your subscription, so you are not being charged separately. Additionally, you are limited on resources, so by doing this on your workstation VM and your Windows Server, it'll max out your vCPU usage. Once you delete your VMs everything will be removed and you can create new VMs without being maxed out on vCPUs**
 
 ![Alt Text](https://i.imgur.com/IBYoYcJ.png)
 
-* **Next we are going to set the Administrative username and password for the workstation. This will be the login to remote into you VM. So don't forget this and make it simple. As you can see I just set mine to Admin123 and made a simple password. Dont forget to check the box on the bottom left. I have it circled, it's easy to miss when making a VM.**
+* **Next, we're going to set the administrative username and password for the workstation. This will be the login to remote into your VM, so don't forget this and keep it simple. As you can see, I just set mine to Admin123 and created a straightforward password. Don't forget to check the box on the bottom left, I have it circled. It's easy to miss when creating a VM**
 
 ![Alt Text](https://i.imgur.com/HuML7RE.png)
 
@@ -127,7 +127,7 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![Alt Text](https://i.imgur.com/34JCsIn.png)
 
-* **Check on the box that says "Delete public IP and NIC when VM is deleted". You're only given a certain amout of public IP addresses so I recommend selecting this when creating VM's. It's also good practice for the real world. In the real world this will help prevent potential costs,enhances security and it assures the removal of any associated networking components. After you check that box you can select "Review and Create".**
+* **Check the box that says "Delete public IP and NIC when VM is deleted". You're only given a certain amout of public IP addresses so I recommend selecting this when creating VM's. It's also good practice for the real world. In the real world this will help prevent potential costs,enhances security and it assures the removal of any associated networking components. After you check that box you can select "Review and Create".**
 
 ![Alt Text](https://i.imgur.com/LAnYqcf.png)
 
@@ -152,13 +152,13 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![Alt Text](https://i.imgur.com/Ze0bJrX.png) 
 
-* **In the overview of Virtual Machine it shows the "essentials" of our machine on the right. Look for your public IP address for your Virtual Machine. There's a "copy to clipboard" right next to the public IP address. So copy the public IP address and once you've done that click on "Connect" and select the first option of "Connect" This will be if you're using remote desktop to remote into the VM's**
+* **In the overview of the Virtual Machine, it shows the "essentials" of our machine on the right. Look for your public IP address for your Virtual Machine. There's a "copy to clipboard" option right next to the public IP address. Copy the public IP address, and once you've done that, click on "Connect" and select the first option, "Connect." This will be if you're using remote desktop to connect to the VMs**
 
 ![Alt Text](https://i.imgur.com/OdN0OnO.png)
 
-* **If you are using a windows pc you'll already have RDP. If you're a Mac user you can download RDP for Mac here.** [Click Here](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12)
+* **If you're using a Windows PC, you already have RDP. If you're a Mac user, you can download RDP for Mac** [Click Here](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12)
 
-* **Download the RDP file and open it once it's done. It'll ask you for the Ip Address of the PC that you're connecting to and that's where you want to paste your public IP Address. Type in the Administrative username and password that you created when you set up the VM.**
+* **Download the RDP file and open it once it's done. It'll ask you for the IP address of the PC that you're connecting to, and that's where you want to paste your public IP address. Type in the administrative username and password that you created when you set up the VM**
 
 ![Alt Text](https://i.imgur.com/W8EemPm.png)
 
@@ -174,7 +174,7 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 ![Alt Text](https://i.imgur.com/5Rn5Fxx.png)
 
 
-* **Make sure you sync the same Resource Group and Region that we first created. I have mine under ADProject and (US) West US 3 so I'm going to select those options and then name this vm Domain Controller.**
+* **Make sure to sync with the same Resource Group and Region that we initially created. I have mine under ADProject and (US) West US 3, so I'm going to select those options. Then, name this VM "Domain Controller.**
 
 ![Alt Text](https://i.imgur.com/kYyJwg7.png)
 
@@ -183,22 +183,22 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![Alt Text](https://i.imgur.com/RmuwdXC.png)
 
-* **I'm going to choose the same size of the vm as I did for my workstation. I had issues installing AD on this server with only 1GB. So I recommend upgrading the size on this. I selected the B2ms**
+* **I'm going to choose the same size for the VM as I did for my workstation. I had issues installing AD on this server with only 1GB, so I recommend upgrading the size for this. I selected the B2ms**
 
  ![Alt Text](https://i.imgur.com/M2zNy95.png)
 
 
- * **Create the username and password for the Windows 2019 Server. This will be the username and password you use to remote Windows Server. Im going to keep it simple and keep it as Admin123**
+ * **Create the username and password for the Windows 2019 Server. This will be the username and password you use to remote Windows Server. I'm going to keep it simple and keep it as Admin123**
 
 
 ![Alt Text](https://i.imgur.com/dlYuXfH.png)
 
 
-* **Go to the networking tab and make sure you check the box to delete your public IP address and Nic after the vm is deleted. After that click on "Review and Create" Once your vm passes validation it'll be ready to deploy and remote into!!**
+* **Go to the Networking tab and ensure you check the box to delete your public IP address and NIC after the VM is deleted. After that, click on "Review and Create." Once your VM passes validation, it'll be ready to deploy and remote into!!**
 
 ![Alt Text](https://i.imgur.com/iSoTK2k.png)
 
-* **But before we remote into our Windows 2019 Server we have to make our Server a static IP Address. This is going to be our Domain Controller so we don't want this IP Address to change. If the DC obtained a new IP Address from DHCP then all devices on the network would lose connection to the Domain Controller and no devices will be on the network. Click on your Windows 2019 Server VM and click on "Network Settings"**
+* **But before we remote into our Windows 2019 Server, we have to assign a static IP address to our server. This will be our Domain Controller, so we don't want this IP address to change. If the DC obtained a new IP address from DHCP, all devices on the network would lose connection to the Domain Controller, and no devices will be on the network. Click on your Windows 2019 Server VM and then click on "Network Settings."**
 
  ![Alt Text](https://i.imgur.com/NQNZObS.png)
 
@@ -210,7 +210,7 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![ALt Text](https://i.imgur.com/KcylFlZ.png)
 
-* **Now that we've set our Windows Server to a static IP we can now remote into our Server. When you remote into your Windows 2019 Server with your administrator username and password your VM wil load up and this Server Manager dashboard will pop up. This is where we will install Active Directory later on. Congrats on sucessfully creating and remoting into your windows server!!**
+* **Now that we've set our Windows Server to a static IP, we can remote into our server. When you remote into your Windows 2019 Server with your administrator username and password, your VM will load up, and the Server Manager dashboard will appear. This is where we will install Active Directory later on. Congratulations on successfully creating and remoting into your Windows Server!**
 
 
 ![Alt Text](https://i.imgur.com/dbEd28C.jpg)
