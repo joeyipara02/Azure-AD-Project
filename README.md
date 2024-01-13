@@ -37,7 +37,7 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![Alt text](https://i.imgur.com/nj5Ln3I.png)
 
-* **Click "Start Free". You will have to follow the instructions to sign up for the account. It's pretty straight forward and you can sign up with your email. It will ask for a credit card but it will not charge you until the $200 credit is used up or your 30 days expire. After you create your account you are now ready to start using Azure! In the Azure world you are now a Tenant!** 
+* **Click "Start Free". You will have to follow the instructions to sign up for the account. It's pretty straight forward and you sign up with your email. It'll ask for a credit card but it will not charge you until the $200 credit is used up or your 30 days expire. After you create your account you are now ready to start using Azure! In the Azure world you are now a Tenant!** 
 
 
 # Step 2: Azure Portal Introduction 
@@ -57,7 +57,7 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 * A resource group is a way to organize everything that you are going to build in your Azure environment. If you want to create a network with a few vm workstations and some servers you will need a centrailzed place to store all your network devices that you want on the same network. This is what the resource gorup does. Think of it as a container and you want to store all resources to your environment in one container.  
 
-* **In order to create a resource group, we are going to click on Resource Group.**
+* **In order to create a resource group, we are going to click on "Resource Group".**
 
 
 
@@ -72,19 +72,19 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 ![Alt Text](https://i.imgur.com/alKRJST.png)
 
 
-* **Name the Resource Group whatever you want but for this illustration I'm going to name it ADProject**
+* **Next we are going to name our Resource Group. It doesn't matter what you name it just be sure to select this Resource Group when you create your VM's. For this illustration I'm going to name it "ADProject"**
 
 
 ![Alt Text](https://i.imgur.com/e6S70iR.png)
 
 
-* **Select from the drop down bar of what region you want to use. Select the region that you are closest too. This will help to reduce latency and improve performance. You also need to put all the machines that you want on the same network in the same region. I'm from the best coast the west coast so I'm going to select the Region (Us) West US 3.**
+* **Select from the drop down bar of what region you want to use. Select the region that you are closest to. This will help to reduce latency and improve performance. You will need to put all the machines that you want on the same network in the same region. I'm from the best coast the west coast so I'm going to select the Region "(Us) West US 3".**
 
 * **Click "Review and Create".**
  
 ![Alt Text](https://i.imgur.com/W3YnU6n.png)
 
-* **On the next page just Click on "Create" on the bottom left where theres another arrow pointing to where its located. You have now created your resource group!**
+* **On the next page click "Create" on the bottom left. You have now created your resource group!**
 
 ![Alt Text](https://i.imgur.com/amMSExQ.png)
 
@@ -96,14 +96,14 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 
 
-* **Just like we did with the resource group, we want to click "Create" and select on Azure Virtual Machine.**
+* **Click "Create" and select on Azure Virtual Machine.**
 
 
 
 ![Alt Text](https://i.imgur.com/vnJPr37.png)
 
 
-* **First thing we are going to do is click on the drop down bar on Resource Group and select the Resource Group you just created. The name of my Resource Group is ADProject so I'm going to select on ADProject.**
+* **First thing we are going to do is click on the drop down bar on Resource Group and select the Resource Group you just created. The name of my Resource Group is ADProject so I'm going to select ADProject.**
 
 ![Alt Text](https://i.imgur.com/YDrpxtB.png)
 
@@ -111,11 +111,11 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![Alt Text](https://i.imgur.com/RpSsZbQ.png)
 
-* **The next thing you're going to do is select the size of your vm. This will allocate your CPU and Ram for your VM. I had some issues running my VM's with the Standard size. If you are having performance issues or don't want to wait and see if your VM is slow I'll show how to change to size of your Vm. Click on "See all sizes"**
+* **The next thing you're going to do is select the size of your vm. This will allocate your CPU and Ram for your VM. I had some issues running my VM's with the Standard size. If you don't want to wait and see if your VM is slow I'll show how to change to size of your Vm. Click on "See all sizes"**
 
 ![Alt Text](https://i.imgur.com/fmFNKEr.png)
 
-* **Select B2ms for the size of the VM. This VM will have 2 virtual CPU's and 8 gb's of virtual ram. Once you've done that click on "Select" at the bottom left corner. Also don't let the cost of the size scare you. You will not be charged for this. It just shows the cost if you were paying for the feature. It will be taken from your subscription so you are not being charged. Also, you are limited on resources, so by doing this on your workstation VM and your DC will max out your VCPU usage. Once you delete them, you can create VMs again**
+* **Select B2ms for the size of the VM. This VM will have 2 virtual CPU's and 8 gb's of virtual ram. Once you've done that click on "Select" at the bottom left corner. Also don't let the cost of the size scare you. You will not be charged for this. It just shows the cost if you were paying for the feature. It will be taken from your subscription so you are not being charged. Also, you are limited on resources, so by doing this on your workstation VM and your Windows Server it'll max out your VcPU usage. Once you delete your VM's, it'll delete everything and you can create VM's and won't be maxed out on VcPU's**
 
 ![Alt Text](https://i.imgur.com/IBYoYcJ.png)
 
@@ -135,7 +135,7 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![Alt Text](https://i.imgur.com/v7nUCI7.png)
 
-* **Once the deployment is complete you have now creating a VM on Azure. Congrats!!**
+* **Once the deployment is complete the VM is ready to use. Congrats on creating your first VM in Azure!!**
 
 
 ![Alt Text](https://i.imgur.com/ZICzVAv.png)
@@ -144,7 +144,7 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 # Step:4 Connect to Virtual Machine Using Remote Desktop
 
 
-* **Now that we created our VM let's go take a look at it and see how we connect to it. Navigate to the Azure portal and click on "Virtual Machine"**
+* **Now that we've created our VM, let's check it out and see how we connect to it. Go to the Azure portal and click on "Virtual Machine."**
 
 ![Alt Text](https://i.imgur.com/5Rn5Fxx.png)
 
@@ -156,9 +156,9 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![Alt Text](https://i.imgur.com/OdN0OnO.png)
 
-* **If you are using a windows pc you will already have RDP. If you're a Mac user you can download RDP for Mac here.** [Click Here](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12)
+* **If you are using a windows pc you'll already have RDP. If you're a Mac user you can download RDP for Mac here.** [Click Here](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12)
 
-* **Download the RDP file and open it once it's done. It'll ask you for the PC that you are connecting to and that's where you want to paste your public IP Address. Type in the Administrative username and password that you created when you set up the VM.**
+* **Download the RDP file and open it once it's done. It'll ask you for the Ip Address of the PC that you're connecting to and that's where you want to paste your public IP Address. Type in the Administrative username and password that you created when you set up the VM.**
 
 ![Alt Text](https://i.imgur.com/W8EemPm.png)
 
@@ -179,7 +179,7 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 ![Alt Text](https://i.imgur.com/kYyJwg7.png)
 
 
-* **After that you want to choose the image of the virtual machine you want to create. We are creating a Windows 2019 Server so im going to scroll down and select "Windows Server 2019 Datacenter"** 
+* **After that you want to choose the image of the virtual machine you want to create. We are creating a Windows 2019 Server so I'm going to scroll down and select "Windows Server 2019 Datacenter"** 
 
 ![Alt Text](https://i.imgur.com/RmuwdXC.png)
 
@@ -188,7 +188,7 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
  ![Alt Text](https://i.imgur.com/M2zNy95.png)
 
 
- * **Create the username and password for the Windows 2019 Server. This will be the username and password you use to remote into your DC once we promote this server to a DC. Im going to keep it simple and keep it as Admin123**
+ * **Create the username and password for the Windows 2019 Server. This will be the username and password you use to remote Windows Server. Im going to keep it simple and keep it as Admin123**
 
 
 ![Alt Text](https://i.imgur.com/dlYuXfH.png)
@@ -210,7 +210,7 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![ALt Text](https://i.imgur.com/KcylFlZ.png)
 
-* **Now we can remote into our server now that we set it the IP Address to Static. When you remote into your Windows 2019 Server with your administrator username and password your VM wil load up and this Server Manager dashboard will pop up. This is where we will install Active Directory from and how we will promote it to our Windows 2019 Server. Congrats on sucessfully creating and remoting into your windows server!!**
+* **Now that we've set our Windows Server to a static IP we can now remote into our Server. When you remote into your Windows 2019 Server with your administrator username and password your VM wil load up and this Server Manager dashboard will pop up. This is where we will install Active Directory later on. Congrats on sucessfully creating and remoting into your windows server!!**
 
 
 ![Alt Text](https://i.imgur.com/dbEd28C.jpg)
