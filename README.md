@@ -291,7 +291,7 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![Alt Text](https://i.imgur.com/cimPbA2.png)
 
-* **Check the box for "Add a new forest" and type in the name you want your domain to be. I'm just going to use "Domain.com" to keep it simple. After you name it click "Next"**
+* **Check the box to "Add a new forest" and type in the name you want your domain to be. I'm just going to use "Domain.com" to keep it simple. After you name it click "Next"**
 
 ![Alt Text](https://i.imgur.com/xIJFftv.png)
 
@@ -303,7 +303,7 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![Alt Text](https://i.imgur.com/FvF47lq.png)
 
-* **Finish out the installation by clicking "Install". You will get warning signs but don't mind those it's normal. This process will take a little while and will restart when it's done.**
+* **Finish the installation by clicking "Install." You will encounter warning signs, but don't mind them; it's normal. This process will take a little while and will restart when it's done.**
 
 ![Alt Text](https://i.imgur.com/3OBKDiM.png)
 
@@ -311,7 +311,7 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![Alt Text](https://i.imgur.com/N9t7MeP.png)
 
-* **You can see that we successfully promoted Active Directory to a Domain Controller with the PC name showing "DomainControlle"🤣(missing the "r" I think it was too long of a name). You can also see that we are on the domain "Domain.com" which is the name my domain I just created.**
+* **You can see that we successfully promoted Active Directory to a Domain Controller with the PC name showing "DomainControlle"🤣(missing the "r" I think it was too long of a name). You can also see that we're on the domain "Domain.com" which is the name my domain I just created.**
 
 ![Alt Text](https://i.imgur.com/PcvHAdc.png)
 
@@ -441,11 +441,11 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![Alt Text](https://i.imgur.com/Kwwar1n.png)
 
-* **Check on "Remote Desktop Users" and click "OK". We have now added this year to the "Remote Desktop Users"**
+* **Check on "Remote Desktop Users" and click "OK". We have now added this user to the "Remote Desktop Users"**
 
 ![Alt Text](https://i.imgur.com/XJUBK8Q.png)
 
-* **Now we are going to login to our Windows 11 VM with our administrative username and password for our machine. Not the username and password we just created, but the admin username and password we created for this machine. So I'm going to login with Admin123 into my Windows 11 VM**
+* **Now, we are going to log in to our Windows 11 VM with our administrative username and password for our machine. Not the username and password we just created, but the admin username and password we created for this machine. So, I'm going to log in with Admin123 into my Windows 11 VM.**
 
 ![Alt Text](https://i.imgur.com/i6dDp5H.png)
 
@@ -469,7 +469,7 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![Alt Text](https://i.imgur.com/HlVPKXa.png)
 
-* **Now this user is added to the "Remote" users on this PC we can now remote into our windows vm with this user**
+* **Now this user is added to the "Remote" users on this PC and we can now remote into our windows vm with this user**
 
 ![Alt Text](https://i.imgur.com/bJ8drSb.png)
 
