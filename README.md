@@ -489,6 +489,11 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
  ![Alt Text](https://i.imgur.com/OPjcH06.png)
 
 
+# Bonus Section: Create a GPO and link it to an OU.
+
+
+
+
 
 
 
