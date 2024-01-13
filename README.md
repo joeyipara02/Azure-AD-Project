@@ -90,7 +90,7 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 # Step 3: Create a Windows Virtual Machine (Windows 11)
 
-* **The next step is to create a virtual machine. Lets's go back to the Azure home portal. Once your back at the home portal click on virutal machine.**
+* **The next step is to create a virtual machine. Lets's go back to the Azure home portal. Once you're back at the home portal click on virutal machine.**
 
 ![Alt Text](https://i.imgur.com/5Rn5Fxx.png)
 
