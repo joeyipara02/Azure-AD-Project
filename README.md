@@ -469,9 +469,11 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![Alt Text](https://i.imgur.com/HlVPKXa.png)
 
+
 * **Now this user is added to the "Remote" users on this PC and we can now remote into our windows vm with this user**
 
 ![Alt Text](https://i.imgur.com/bJ8drSb.png)
+
 
 * **Log in to your Windows 11 VM, click on "More choices" and then select "Use a different account"**
 
@@ -479,13 +481,16 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 * **Enter your username, followed by @domain you created. For example, for me, it will be mjones281@domain.com. Yours will be your created username followed by @yourdomain**
 
+ 
  ![Alt Text](https://i.imgur.com/fbep0OU.png)
 
  * **You have successfully remoted in with the user you just created in Active Directory congrats!!!!!!**
 
 ![Alt Text](https://i.imgur.com/ekHMnXU.png)
 
+
 * **You can open the CMD and type am "whoami" and it will show you are signed in with the user you created!!**
+
  ![Alt Text](https://i.imgur.com/OPjcH06.png)
 
 
@@ -498,32 +503,47 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 ![Alt Text](https://i.imgur.com/TS30cb3.png)
 
 * **I'm going to name my OU "Payroll" and click "OK." Next, I'll create a sub-OU inside "Payroll" and name it "Users."**
+
 ![Alt Text](https://i.imgur.com/nj5EUiY.png)
+
 
 ![Alt Text](https://i.imgur.com/noqmWAm.png)
 
+
 * **Create a user and place them in the "Users" sub-OU you just created**
+
 
 ![Alt Text](https://i.imgur.com/sQ1fpQR.png)
 
+
 * **Next, open Group Policy Management. Click on the Windows tab, and under "Windows Administrative Tools," scroll down to "Group Policy Management" and open it..**
+
 
 ![Alt Text](https://i.imgur.com/LO7ohmz.png)
 
+
 * **Expand on the Forest: domain.com and navigate to your domain. Double-click on your domain.**
+
 
 ![Alt Text](https://i.imgur.com/1bUI4zP.png)
 
 * **Right-click on "Group Policy Object" and select "New."**
+
 * **Name it "Deny CMD Access" and click "Ok."**
 
 ![Alt Text](https://i.imgur.com/d4pH7cF.png)
+
+
 ![Alt Text](https://i.imgur.com/MtA1Guz.png)
 
 * **Right click on the GPO and select "Edit"**
+
+
 ![Alt Text](https://i.imgur.com/l5pGRqw.png)
 
 * **Expand "User Configuration," then navigate to "Policies," and further expand "Administrative Templates."**
+
+
 ![Alt Text](https://i.imgur.com/t8Hp8Cg.png)
 
 * **Click on "Systems," and in the settings to your right, we are going to click on "Prevent access to the command prompt."**
@@ -532,10 +552,14 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 * **Double click on it. Check the box for "Enabled" and then click "Apply" and "OK"**
 
+
 ![Alt Text](https://i.imgur.com/i5M881e.png)
 
+
 * **Right click on the "User" Sub-OU under the "Payroll" OU and select "Link an Existing GPO". Select the GPO we just created and click "OK".**
+
 ![Alt Text](https://i.imgur.com/91ggxcQ.png)
+
 
 ![Alt Text](https://i.imgur.com/9F3xE9B.png)
 
@@ -543,11 +567,21 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
  ![Alt Text](https://i.imgur.com/VIL2boP.png)
 
+
 * **Make sure the user you just created is added to the "Remote Desktop Users" group and is included in the "Windows VM Remote Users" before proceeding to the next step.**
+
 
 * **Once you've done that, remote into the machine with the new user who has been denied access to CMD**
 
+
 ![Alt Text](https://i.imgur.com/UAWFfAA.png)
+
+* **In the windows search bar type in cmd and press enter. You can see that user is denied access to the CMD prompt!. Congrats you have just set your first GPO!!!!
+
+![Alt Text](https://i.imgur.com/25uchWl.png)
+
+
+
 
 
 
