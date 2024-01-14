@@ -539,6 +539,22 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![Alt Text](https://i.imgur.com/9F3xE9B.png)
 
+* **Next open your command prompt and type in gpupdate /force**
+
+ ![Alt Text](https://i.imgur.com/VIL2boP.png)
+
+* **Make sure the user you just created is added to the "Remote Desktop Users" group and is included in the "Windows VM Remote Users" before proceeding to the next step.**
+
+* **Once you've done that, remote into the machine with the new user who has been denied access to CMD**
+
+![Alt Text](https://i.imgur.com/UAWFfAA.png)
+
+
+
+
+
+
+
 
 
 
