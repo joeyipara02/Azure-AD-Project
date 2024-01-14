@@ -534,6 +534,11 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![Alt Text](https://i.imgur.com/i5M881e.png)
 
+* **Right click on the "User" Sub-OU under the "Payroll" OU and select "Link an Existing GPO". Select the GPO we just created and click "OK".**
+![Alt Text](https://i.imgur.com/91ggxcQ.png)
+
+![Alt Text](https://i.imgur.com/9F3xE9B.png)
+
 
 
 
