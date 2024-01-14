@@ -523,8 +523,16 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 * **Right click on the GPO and select "Edit"**
 1[Alt Text](https://i.imgur.com/l5pGRqw.png)
 
+* **Expand "User Configuration," then navigate to "Policies," and further expand "Administrative Templates."**
+![Alt Text](https://i.imgur.com/t8Hp8Cg.png)
 
+* **Click on "Systems," and in the settings to your right, we are going to click on "Prevent access to the command prompt."**
 
+![Alt Text](https://i.imgur.com/9XbDyYV.png)
+
+* **Double click on it. Check the box for "Enabled" and then click "Apply" and "OK"**
+
+![Alt Text](https://i.imgur.com/i5M881e.png)
 
 
 
