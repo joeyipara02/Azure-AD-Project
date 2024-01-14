@@ -521,7 +521,7 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 ![Alt Text](https://i.imgur.com/MtA1Guz.png)
 
 * **Right click on the GPO and select "Edit"**
-1[Alt Text](https://i.imgur.com/l5pGRqw.png)
+![Alt Text](https://i.imgur.com/l5pGRqw.png)
 
 * **Expand "User Configuration," then navigate to "Policies," and further expand "Administrative Templates."**
 ![Alt Text](https://i.imgur.com/t8Hp8Cg.png)
