@@ -576,11 +576,15 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![Alt Text](https://i.imgur.com/UAWFfAA.png)
 
-* **In the windows search bar type in cmd and press enter. You can see that user is denied access to the CMD prompt!. Congrats you have just set your first GPO!!!!
+* **In the windows search bar type in cmd and press enter. You can see that user is denied access to the CMD prompt!. Congrats you have just set your first GPO!!!!**
 
 ![Alt Text](https://i.imgur.com/25uchWl.png)
 
 
+
+## **Thank you so much for following along with me during this step-by-step guide. I hope you were able to learn about Active Directory and the importance it holds in organizations. I also hope you gained insights into the domain controller and its pivotal role in organizational functioning. Whether you're brand new to IT or have been in the field for years, involvement with Active Directory and domain controllers is inevitable. I hope you learned how to set up and configure a server, as well as how to set up a Windows VM.
+
+Thank you for sticking with me through this long and detailed tutorial. I hope you can walk away with confidence and a passion to learn more. PLEASE DON'T FORGET TO DELETE YOUR RESOURCES WHEN YOU ARE DONE WITH YOUR VMs!!!**
 
 
 
