@@ -520,6 +520,9 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 ![Alt Text](https://i.imgur.com/d4pH7cF.png)
 ![Alt Text](https://i.imgur.com/MtA1Guz.png)
 
+* **Right click on the GPO and select "Edit"**
+1[Alt Text](https://i.imgur.com/l5pGRqw.png)
+
 
 
 
