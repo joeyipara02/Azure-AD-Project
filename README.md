@@ -2,7 +2,7 @@
 
 # Objective
 
-In this beginner-friendly guide, I'll walk you through the process of utilizing Microsoft Azure, a cloud-based platform that provides various tools and services. This guide will take you through creating an Azure account, setting up a Windows 11 Virtual Machine, and configuring Active Directory on a Windows Server 2019. The server will then be promoted to a domain controller (DC). Afterward, we'll join the Windows 11 VM to the domain we just created. Following that, we'll create users, organizational units (OUs), groups, and demonstrate how to add a user to a security group and OU. 
+In this beginner-friendly guide, I'll walk you through the process of utilizing Microsoft Azure, a cloud-based platform that provides various tools and services. This step by step guide will take you through creating an Azure account, setting up a Windows 11 Virtual Machine, and configuring Active Directory on a Windows Server 2019. The server will then be promoted to a domain controller (DC). Afterward, we'll join the Windows 11 VM to the domain we just created. Following that, we'll create users, organizational units (OUs), groups, and demonstrate how to add a user to a security group and OU. 
 
 ## What is Active Directory and a Domain Controller?
 
