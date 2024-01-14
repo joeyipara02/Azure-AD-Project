@@ -502,6 +502,13 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![Alt Text](https://i.imgur.com/noqmWAm.png)
 
+* **Create a user and place them in the "Users" sub-OU you just created**
+
+![Alt Text](https://i.imgur.com/sQ1fpQR.png)
+
+* **Next, we are going to open Group Policy Management. Click on the Windows tab, and under "Windows Administrative Tools," scroll down to "Group Policy Management" and open it.**
+
+![Alt Text](https://i.imgur.com/LO7ohmz.png)
 
 
 
