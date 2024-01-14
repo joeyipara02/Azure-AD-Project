@@ -506,7 +506,7 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![Alt Text](https://i.imgur.com/sQ1fpQR.png)
 
-* **Next, we are going to open Group Policy Management. Click on the Windows tab, and under "Windows Administrative Tools," scroll down to "Group Policy Management" and open it.**
+* **Next, open Group Policy Management. Click on the Windows tab, and under "Windows Administrative Tools," scroll down to "Group Policy Management" and open it..**
 
 ![Alt Text](https://i.imgur.com/LO7ohmz.png)
 
@@ -514,8 +514,8 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![Alt Text](https://i.imgur.com/1bUI4zP.png)
 
-* **Right click on "Group Policy Object" and select "New"**
-* **I'm going to name it "Deny CMD Access" and hit "Ok"**
+* **Right-click on "Group Policy Object" and select "New."**
+* **Name it "Deny CMD Access" and click "Ok."**
 
 ![Alt Text](https://i.imgur.com/d4pH7cF.png)
 ![Alt Text](https://i.imgur.com/MtA1Guz.png)
