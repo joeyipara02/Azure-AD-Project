@@ -546,7 +546,7 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![Alt Text](https://i.imgur.com/t8Hp8Cg.png)
 
-* **Click on "Systems," and in the settings to your right, we are going to click on "Prevent access to the command prompt."**
+* **Click on "System," and in the settings to your right, we are going to click on "Prevent access to the command prompt."**
 
 ![Alt Text](https://i.imgur.com/9XbDyYV.png)
 
@@ -568,7 +568,7 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
  ![Alt Text](https://i.imgur.com/VIL2boP.png)
 
 
-* **Make sure the user you just created is added to the "Remote Desktop Users" group and is included in the "Windows VM Remote Users" before proceeding to the next step.**
+* **Make sure the user you just created is added to the "Remote Desktop Users" group. Additionally, log in to your Windows VM with your admin rights to add the new user to the remote users on the Windows VM**
 
 
 * **Once you've done that, remote into the machine with the new user who has been denied access to CMD**
