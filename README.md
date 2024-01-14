@@ -497,6 +497,12 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![Alt Text](https://i.imgur.com/TS30cb3.png)
 
+![Alt Text](https://i.imgur.com/nj5EUiY.png)
+
+* **I'm going to name my OU "Payroll" and click "OK." Next, I'll create a sub-OU inside "Payroll" and name it "Users."**
+
+![Alt Text](https://i.imgur.com/noqmWAm.png)
+
 
 
 
