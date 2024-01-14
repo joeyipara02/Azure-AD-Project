@@ -491,6 +491,14 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 # Bonus Section: Create a GPO and link it to an OU.
 
+* **In this bonus step I'm going to show you how to create a GPO and link it to an OU. We are going to deny access to the CMD to users in a certain OU**
+
+* **First, we're going to create another OU. I've already created a few, but for this demo, I'll go ahead and create a few more. I'm going to open Active Directory Users and Computers, navigate to "domain.com," select "New," and then choose "Organizational Unit."**
+
+![Alt Text](https://i.imgur.com/TS30cb3.png)
+
+
+
 
 
 
