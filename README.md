@@ -510,6 +510,19 @@ In this beginner-friendly guide, I'll walk you through the process of utilizing 
 
 ![Alt Text](https://i.imgur.com/LO7ohmz.png)
 
+* **Expand on the Forest: domain.com and navigate to your domain. Double-click on your domain.**
+
+![Alt Text](https://i.imgur.com/1bUI4zP.png)
+
+* **Right click on "Group Policy Object" and select "New"**
+* **I'm going to name it "Deny CMD Access" and hit "Ok"**
+
+![Alt Text](https://i.imgur.com/d4pH7cF.png)
+![Alt Text](https://i.imgur.com/MtA1Guz.png)
+
+
+
+
 
 
 
