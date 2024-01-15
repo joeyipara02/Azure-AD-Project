@@ -55,7 +55,7 @@ In this easy-to-follow, step-by-step guide for beginners, I'll walk you through 
 
 ## What is a Resource Group?
 
-* A resource group is a way to organize everything that you are going to build in your Azure environment. If you want to create a network with a few vm workstations and some servers you will need a centrailzed place to store all your network devices that you want on the same network. This is what the resource gorup does. Think of it as a container and you want to store all resources to your environment in one container.  
+* A resource group is a way to organize everything that you are going to build in your Azure environment. If you want to create a network with a few vm workstations and some servers you will need a centrailzed place to store all your network devices that you want on the same network. This is what the resource group does. 
 
 * **In order to create a resource group, we're going to click on "Resource Group".**
 
@@ -111,7 +111,7 @@ In this easy-to-follow, step-by-step guide for beginners, I'll walk you through 
 
 ![Alt Text](https://i.imgur.com/RpSsZbQ.png)
 
-* **The next thing you're going to do is select the size of your vm. This will allocate your CPU and Ram for your VM. I had some issues running my VM's with the Standard size. If you don't want to wait and see if your VM is slow I'll show how to change to size of your Vm. Click on "See all sizes"**
+* **The next thing you're going to do is select the size of your VM. This will allocate your CPU and Ram for your VM. I had some issues running my VM with the Standard size. If you don't want to wait and see if your VM is slow I'll show how to change to size of your VM. Click on "See all sizes"**
 
 ![Alt Text](https://i.imgur.com/fmFNKEr.png)
 
@@ -119,7 +119,7 @@ In this easy-to-follow, step-by-step guide for beginners, I'll walk you through 
 
 ![Alt Text](https://i.imgur.com/IBYoYcJ.png)
 
-* **Next, we're going to set the administrative username and password for the workstation. This will be the login to remote into your VM, so don't forget this and keep it simple. As you can see, I just set mine to Admin123 and created a straightforward password. Don't forget to check the box on the bottom left, I have it circled. It's easy to miss when creating a VM**
+* **Next, we're going to set the administrative username and password for the workstation. This will be the login to remote into your VM, so don't forget this username and password. Make sure you create a strong password for this VM. Don't forget to check the box on the bottom left, I have it circled. It's easy to miss when creating a VM**
 
 ![Alt Text](https://i.imgur.com/HuML7RE.png)
 
@@ -127,7 +127,7 @@ In this easy-to-follow, step-by-step guide for beginners, I'll walk you through 
 
 ![Alt Text](https://i.imgur.com/34JCsIn.png)
 
-* **Check the box that says "Delete public IP and NIC when VM is deleted". You're only given a certain amout of public IP addresses so I recommend selecting this when creating VM's. It's also good practice for the real world. In the real world this will help prevent potential costs,enhances security and it assures the removal of any associated networking components. After you check that box you can select "Review and Create".**
+* **Check the box that says "Delete public IP and NIC when VM is deleted". You're only given a certain amout of public IP addresses so I recommend selecting this when creating VM's. It's also good practice for the real world. In the real world this will help prevent potential costs, enhances security and it assures the removal of any associated networking components. After you check that box you can select "Review and Create".**
 
 ![Alt Text](https://i.imgur.com/LAnYqcf.png)
 
@@ -174,12 +174,12 @@ In this easy-to-follow, step-by-step guide for beginners, I'll walk you through 
 ![Alt Text](https://i.imgur.com/5Rn5Fxx.png)
 
 
-* **Make sure to sync with the same Resource Group and Region that we initially created. I have mine under ADProject and (US) West US 3, so I'm going to select those options. Then, name this VM "Domain Controller.**
+* **Make sure to use the the same Resource Group and Region that we initially created. I have mine under ADProject and (US) West US 3, so I'm going to select those options. Then, name this VM "Domain Controller.**
 
 ![Alt Text](https://i.imgur.com/kYyJwg7.png)
 
 
-* **After that you want to choose the image of the virtual machine you want to create. We are creating a Windows 2019 Server so I'm going to scroll down and select "Windows Server 2019 Datacenter"** 
+* **After that, you want to choose the image of the virtual machine you want to create. We are creating a Windows 2019 Server so I'm going to scroll down and select "Windows Server 2019 Datacenter"** 
 
 ![Alt Text](https://i.imgur.com/RmuwdXC.png)
 
@@ -188,7 +188,7 @@ In this easy-to-follow, step-by-step guide for beginners, I'll walk you through 
  ![Alt Text](https://i.imgur.com/M2zNy95.png)
 
 
- * **Create the username and password for the Windows 2019 Server. This will be the username and password you use to remote Windows Server. I'm going to keep it simple and keep it as Admin123**
+ * **Create the username and password for the Windows 2019 Server. This will be the username and password you use to remote Windows Server. Again, make sure to use a strong password**
 
 
 ![Alt Text](https://i.imgur.com/dlYuXfH.png)
@@ -221,7 +221,7 @@ In this easy-to-follow, step-by-step guide for beginners, I'll walk you through 
 
 ![Alt Text](https://i.imgur.com/GMSgu2W.png)
 
-* **Now lets try and ping our Windows Vm from the command prompt in our Windows 2019 Server. My private IP Address for my Windows 11 VM is 10.0.0.4 so I will type in "ping 10.0.0.4". As you can see we are not getting any successful pings. That's because it's getting blocked by our Windows Defender Firewall. We will need to enable a few rules in our firewall**
+* **Now lets try and ping our Windows VM from the command prompt in our Windows 2019 Server. My private IP Address for my Windows 11 VM is 10.0.0.4 so I will type in "ping 10.0.0.4". As you can see, we are not getting any successful pings. That's because they are getting blocked by our Windows Defender Firewall. To fix this, we will need to add a few rules in our firewall**
 
 ![Alt Text](https://i.imgur.com/GP2UpFk.png)
 
@@ -242,7 +242,7 @@ In this easy-to-follow, step-by-step guide for beginners, I'll walk you through 
 
 ![Alt Text](https://i.imgur.com/miZQubq.png)
 
-* **Now that we know we can ping our Windows VM from our Windows 2019 Server, we need to check if our Windows 11 VM can ping the Windows 2019 Server. However, we already know there are firewall rules in place to block ping requests, so you'll have to follow the same steps on the Windows 2019 Server. Just follow the same steps we did on the Windows VM**
+* **Now we need to check if our Windows 11 VM can ping the Windows 2019 Server. However, we already know there are firewall rules in place to block ping requests, so you'll have to follow the same steps on the Windows 2019 Server. Just follow the same steps we did on the Windows VM**
 
 ![Alt Text](https://i.imgur.com/fwOitmK.png)
 
@@ -311,7 +311,7 @@ In this easy-to-follow, step-by-step guide for beginners, I'll walk you through 
 
 ![Alt Text](https://i.imgur.com/N9t7MeP.png)
 
-* **You can see that we successfully promoted Active Directory to a Domain Controller with the PC name showing "DomainControlle"🤣(missing the "r" I think it was too long of a name). You can also see that we're on the domain "Domain.com" which is the name my domain I just created.**
+* **You can see that we successfully promoted Active Directory to a Domain Controller with the PC name showing "DomainControlle"🤣(missing the "r" I think it was too long of a name). You can also see that we're on the domain "Domain.com" which is the name of the domain I just created.**
 
 ![Alt Text](https://i.imgur.com/PcvHAdc.png)
 
@@ -354,7 +354,7 @@ In this easy-to-follow, step-by-step guide for beginners, I'll walk you through 
 
  ![Alt Text](https://i.imgur.com/ksfkfgj.png)
 
- * **It will then ask you for the Administrative username and password for the Windows VM. Click "Ok" and it will say "Welcome to the yourdomain.com domain" and it will have you restart your vm**
+ * **It will then ask you for the Administrative username and password for the Windows VM. Click "Ok" and it will say "Welcome to @<YOURDOMAIN> domain" and it will have you restart your VM**
 
   ![Alt Text](https://i.imgur.com/aWujWon.png)
 
@@ -366,7 +366,7 @@ In this easy-to-follow, step-by-step guide for beginners, I'll walk you through 
 
 ![Alt Text](https://i.imgur.com/sqWicBf.png)
 
-# Step 9: Create a user, OUs, and a Security Group in Active Directory
+# Step 9: Create a User, OUs, and a Security Group in Active Directory
 
 * **Login to your Domain Contoller. The "Server Manager" will automatically open up. On the right hand side click on "Tools" and select "Active Directory Users and Computers"**
 
@@ -400,7 +400,7 @@ In this easy-to-follow, step-by-step guide for beginners, I'll walk you through 
 
 ![Alt Text](https://i.imgur.com/4XaqTLh.png)
 
-* **Create a password for your user. I'm going to uncheck "User must change password at next login". In the real world you will keep this box checked. Help Desk will assign a password like "example123" to create the profile. Wen the user logins for the first time with this password they will then be asked to change their password to the length and security requirements of the organization password requirements.**
+* **Create a password for your user. I'm going to uncheck "User must change password at next login". In the real world you will keep this box checked. Help Desk will assign a password like "example123" to create the profile. When the user logins for the first time with this password they will then be asked to change their password to the length and security requirements of the organization password requirements.**
 
 ![Alt Text](https://i.imgur.com/6DlCMjV.png)
 
@@ -470,7 +470,7 @@ In this easy-to-follow, step-by-step guide for beginners, I'll walk you through 
 ![Alt Text](https://i.imgur.com/HlVPKXa.png)
 
 
-* **Now this user is added to the "Remote" users on this PC and we can now remote into our windows vm with this user**
+* **Now this user is added to the "Remote" users on this PC and we can now remote into our Windows VM with this user**
 
 ![Alt Text](https://i.imgur.com/bJ8drSb.png)
 
@@ -479,7 +479,7 @@ In this easy-to-follow, step-by-step guide for beginners, I'll walk you through 
 
  ![Alt Text](https://i.imgur.com/sJbH5T3.png)
 
-* **Enter your username, followed by @domain you created. For example, for me, it will be mjones281@domain.com. Yours will be your created username followed by @yourdomain**
+* **Enter your username, followed by @domain you created. For example, for me, it will be mjones281@domain.com. Yours will be your created username followed by <@YOURDOMAIN>**
 
  
  ![Alt Text](https://i.imgur.com/fbep0OU.png)
@@ -489,14 +489,14 @@ In this easy-to-follow, step-by-step guide for beginners, I'll walk you through 
 ![Alt Text](https://i.imgur.com/ekHMnXU.png)
 
 
-* **You can open the CMD and type am "whoami" and it will show you are signed in with the user you created!!**
+* **You can open the CMD prompt and type am "whoami" and it will show you are signed in with the user you created!!**
 
  ![Alt Text](https://i.imgur.com/OPjcH06.png)
 
 
 # Bonus Section: Create a GPO and link it to an OU.
 
-* **In this bonus step I'm going to show you how to create a GPO and link it to an OU. We are going to deny access to the CMD to users in a certain OU**
+* **In this bonus step I'm going to show you how to create a GPO and link it to an OU. We are going to deny access to the CMD prompt to users in a certain OU**
 
 * **First, we're going to create another OU. I've already created a few, but for this demo, I'll go ahead and create a few more. I'm going to open Active Directory Users and Computers, navigate to "domain.com," select "New," and then choose "Organizational Unit."**
 
@@ -582,7 +582,7 @@ In this easy-to-follow, step-by-step guide for beginners, I'll walk you through 
 
 
 
-## **Thank you so much for following along with me during this step-by-step guide. I hope you were able to learn about Active Directory and the importance it holds in organizations. I also hope you gained insights into the domain controller and its pivotal role in organizational functioning. Whether you're brand new to IT or have been in the field for years, involvement with Active Directory and domain controllers is inevitable. I hope you learned how to set up and configure a server, as well as how to set up a Windows VM. Thank you for sticking with me through this long and detailed tutorial. I hope you can walk away with confidence and a passion to learn more**
+## **Thank you so much for following along with me during this step-by-step guide. I hope you were able to learn about Active Directory and the importance it holds in organizations. I also hope you gained insight into the domain controller and its pivotal role in organizational functioning. Whether you're brand new to IT or have been in the field for years, interaction with Active Directory and domain controllers is inevitable. I hope you learned how to set up and configure a server, as well as how to set up a Windows VM. Thank you for sticking with me through this long and detailed tutorial. I hope you can walk away with confidence and a passion to learn more**
 
 
 
