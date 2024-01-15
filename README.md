@@ -410,7 +410,7 @@ In this easy-to-follow, step-by-step guide for beginners, I'll walk you through 
 
 ![Alt Text](https://i.imgur.com/tJZnRrZ.png) 
 
-* **Now we will create a Security Group and add this user to that security group. Right click on your domain and select "New" and then "Group"**
+* **Now we will create a Security Group and add this user to that security group. But before we do this lets go over what a security group is.  A security group allows us to easily manage rights and permissions for a user based on the group they belong to. So, if you're added to the Information Technology group, you will have rights and permissions for systems and networks as other IT members. Someone in payroll won't have these rights, instead, they will have their own rights and permissions by being added to the 'Payroll' group. Click on your domain and select "New" and then "Group".**
 
 ![Alt Text](https://i.imgur.com/yYjBrMf.png)
 
@@ -582,7 +582,9 @@ In this easy-to-follow, step-by-step guide for beginners, I'll walk you through 
 
 
 
-## **Thank you so much for following along with me during this step-by-step guide. I hope you were able to learn about Active Directory and the importance it holds in organizations. I also hope you gained insight into the domain controller and its pivotal role in organizational functioning. Whether you're brand new to IT or have been in the field for years, interaction with Active Directory and domain controllers is inevitable. I hope you learned how to set up and configure a server, as well as how to set up a Windows VM. Thank you for sticking with me through this long and detailed tutorial. I hope you can walk away with confidence and a passion to learn more**
+## Thank You
+
+* **Thank you so much for following along with me during this step-by-step guide. I hope you were able to learn about Active Directory and the importance it holds in organizations. I also hope you gained insight into the domain controller and its pivotal role in organizational functioning. Whether you're brand new to IT or have been in the field for years, interaction with Active Directory and domain controllers is inevitable. I hope you learned how to set up and configure a server, as well as how to set up a Windows VM. Thank you for sticking with me through this long and detailed tutorial. I hope you can walk away with confidence and a passion to learn more**
 
 
 
