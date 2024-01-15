@@ -26,8 +26,9 @@ In this easy-to-follow, step-by-step guide for beginners, I'll walk you through 
 * Step 6: Establish a connection between our Windows Server 2019 and Windows 11 VM
 * Step 7: Install Active Directory and promote to Domain Controller.
 * Step 8: Join Windows 11 VM to the Domain.
-* Step 9: Create a user, OUs, and a Security Group in Active Directory  
+* Step 9: Create a User, OUs, and a Security Group in Active Directory  
 * Step 10: Log in to the Windows VM with the AD user credentials
+* Bounus Step: Create a GPO and link it to an OU 
 
 # Step 1: Create an Azure account
 
